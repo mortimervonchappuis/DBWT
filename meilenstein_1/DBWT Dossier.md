@@ -7,13 +7,15 @@
 | 3       | 5 min           | 5 min          |
 | 4       | 30 min          | 42 min         |
 | 5       | 20 min          | 30 min         |
-| 6       | 30 min          |                |
-| 7       |                 |                |
-| 8       |                 |                |
-| 9       |                 |                |
+| 6       | 30 min          | ?              |
+| 7       | 15 min          | 10 min         |
+| 8       | 15 min          | 20 min         |
+| 9       | 40 min          |                |
 | 10      |                 |                |
 
 ### Aufgabe 6
+
+#### 1)
 
 Anfrage:
 
@@ -72,3 +74,45 @@ Host: fh-aachen.de - Ort der Datei
 filename: /hochschule/bibliothek/ - Name der Datei
 
 Address: 149.201.122.100:443 - IPv4 Adresse
+
+##### 2)
+
+...
+
+### Aufgabe 9
+
+##### Verwendete CSS Eigenschaften:
+
+- font-family
+
+- color
+
+- font-weight
+
+- text-decoration
+
+- margin
+
+- border
+
+- margin-left
+
+- background-color
+
+- text-align
+
+- border-bottom
+
+- float
+
+- display
+
+- border-right
+
+- padding-left
+
+- padding-right
+
+- border-right
+
+

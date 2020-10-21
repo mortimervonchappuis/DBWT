@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+ - Praktikum DBWT. Autoren:
+ - Both Karl Mortimer, von Chappuis, 3146023
+-->
+<html lang="de">
+<head>
+	<title>Aufgabe 8 b)</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#vertikal{
+			background-color: #0000ff;
+			display: grid;
+            grid-template-rows: auto auto auto;
+		}
+		#horizontal{
+			background-color: #00ff00;
+			display: grid;
+            grid-template-columns: auto auto auto;
+		}
+		#horizontal_zentriert{
+			background-color: #ff0000;
+			text-align: center;
+		}
+		#einzeln_zentriert{
+			background-color: #ff0000;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<div id=vertikal>
+	<p>Element 1</p>
+	<p>Element 2</p>
+	<p>Element 3</p>
+</div>
+<div id=horizontal>
+	<p>Element 1</p>
+	<p id=horizontal_zentriert>Element 2 zentriert</p>
+	<p>Element 3</p>
+</div>
+<div>
+	<p id=einzeln_zentriert>Einzelnes Element zentriert</p>
+</div>
+</body>
+</html>
