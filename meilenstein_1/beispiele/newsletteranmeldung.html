@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+ - Praktikum DBWT. Autoren:
+ - Both Karl Mortimer, von Chappuis, 3146023
+ beispiele/formdata.html
+-->
+<html lang="de">
+<head>
+	<title>Aufgabe 5</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Schoolbell&v1" rel="stylesheet">
+</head>
+<body style="font-family: Schoolbell">
+	<form action=beispiele/formdata.html method=POST> 
+		<fieldset>
+			<legend><h1>Anmeldung</h1></legend>
+			<h2>Anrede</h2>
+			<input type=radio name=gender value=divers id=divers>
+			<label for=divers>Person</label>
+			<br>
+			<input type=radio name=gender value=female id=female>
+			<label for=female>Frau</label>
+			<br>
+			<input type=radio name=gender value=male id=male>
+			<label for=male>Herr</label>
+			<br>
+			<br>
+			<div>
+				<label for=vorname><b>Vorname*</b></label>
+				<br>
+				<input required type=text name=vorname id=vorname placeholder="Bitte geben Sie einen Vornamen ein.">
+				<br>
+				<br>
+			</div>
+			<div>
+				<label for=nachname><b>Nachname*</b></label>
+				<br>
+				<input required type=text name=nachname id=nachname placeholder="Bitte geben Sie einen Nachnamen ein.">
+				<br>
+				<br>
+			</div>
+			<div>
+				<label for=nachname><b>E-Mail*</b></label>
+				<br>
+				<input required type=email name=email id=email placeholder="Bitte geben Sie einen E-Mailadresse ein.">
+				<br>
+				<br>
+			</div>
+			<div>
+				<label for=interval><b>Benachritigungsinterval</b></label>
+				<br>
+				<select name=interval id=interval placeholder="Bitte geben Sie einen E-Mailadresse ein.">
+					<option value=daily>Tag</option>
+					<option selected value=weekly>Woche</option>
+					<option value=monthly>Monat</option>
+				</select>
+				<br>
+				<br>
+			</div>
+			<div>
+				<input required type=checkbox name=agb id=agb><label for=agb>Datenschutzhinweise gelesen</label>
+				<br>
+				<br>
+			</div>
+			<button type=submit>Abschicken</button>
+			<p><sup>*)</sup> Eingaben sind Pflicht</p>
+		</fieldset>
+	</form>
+</body>
+</html>
