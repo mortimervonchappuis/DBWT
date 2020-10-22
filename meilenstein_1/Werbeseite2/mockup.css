@@ -1,0 +1,135 @@
+h1{
+	text-align: center;
+	font-size: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+header .row{
+
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.logo{
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.logo-img{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.row{
+	display: table;
+}
+
+.row .col{
+	font-size: 20px;
+	display: table-cell;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.row .col-header{
+	display: table-cell;
+	padding: 10px;
+	padding-bottom: 0px;
+	border: 2px solid black;
+	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+	margin: 20px;
+}
+
+
+.banner{
+	border: 1px solid black;
+}
+h2{
+	font-size: 40px;
+}
+a{
+	color:  #3ebfac;
+}
+
+header ul{
+	vertical-align: middle;
+	width: 964px;
+}
+
+header ul li{
+	display: inline;
+	font-size: 25px;
+	padding-right: 40px;
+	padding-left: 00px;
+}
+html {
+	font-family: Schoolbell;
+}
+
+main .container{
+	margin-left: 350px;
+	width: 994px;
+}
+
+#fliesstext{
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+table{
+	width: 1034px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+th{
+	border: 1px solid black;
+	padding: 10px;
+	font-size: 30px;
+}
+td{
+	font-size: 30px;
+	border: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.preis-euro{
+	text-align: center;
+}
+.dots *{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+footer ul li{
+    display: inline;
+    border-right: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer ul li:last-child{
+    border-right: none;
+}
+footer ul{
+    text-align: center;
+    width: auto;
+    font-size: 20px;
+}
+.last-headline-bold{
+	text-align: center;
+}
+.counter-grid *{
+	display: inline;
+	font-size: 30px;
+}
+.counter-name{
+	padding-right: 100px;
+}
+.fakenews ul {
+	margin-left: 300px;
+}
+#fliesstext{
+	font-size: 20px;
+}
