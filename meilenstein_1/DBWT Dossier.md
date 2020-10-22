@@ -11,24 +11,26 @@
 | 7       | 15 min          | 10 min         |
 | 8       | 15 min          | 20 min         |
 | 9       | 40 min          | 35 min         |
-| 10      |                 |                |
+| 10      | 120 min         | 240 min        |
 
 ### Aufgabe 6
 
 #### 1)
 
-Anfrage:
 
-GEThttps://www.fh-aachen.de/hochschule/bibliothek/
-[HTTP/1.1 200 OK 660ms]
 
-GET
-    https://www.fh-aachen.de/hochschule/bibliothek/
-Status200
-OK
-VersionHTTP/1.1
-Transferred15.91 KB (67.70 KB size)
-
+    Anfrage:
+    
+    GET https://www.fh-aachen.de/hochschule/bibliothek/
+    [HTTP/1.1 200 OK 660ms]
+    
+    GET
+     https://www.fh-aachen.de/hochschule/bibliothek/
+    Status200
+    OK
+    VersionHTTP/1.1
+    Transferred15.91 KB (67.70 KB size)
+    
     Connection
         keep-alive
     Content-Encoding
@@ -75,9 +77,25 @@ filename: /hochschule/bibliothek/ - Name der Datei
 
 Address: 149.201.122.100:443 - IPv4 Adresse
 
-##### 2)
+##### 2) Hier nur exemplarisch:
 
-...
+```html
+POST /test HTTP/1.1
+Host: foo.example
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 27
+
+
+--boundary 
+Content-Disposition: form-data; name="field1" 
+
+value1 
+--boundary 
+Content-Disposition: form-data; name="field2"; filename="example.txt" 
+
+value2
+--boundary--
+```
 
 ### Aufgabe 9
 
