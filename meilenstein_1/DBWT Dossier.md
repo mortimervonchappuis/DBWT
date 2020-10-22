@@ -10,7 +10,7 @@
 | 6       | 30 min          | ?              |
 | 7       | 15 min          | 10 min         |
 | 8       | 15 min          | 20 min         |
-| 9       | 40 min          |                |
+| 9       | 40 min          | 35 min         |
 | 10      |                 |                |
 
 ### Aufgabe 6
