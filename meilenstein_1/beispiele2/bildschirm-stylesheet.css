@@ -1,0 +1,60 @@
+body{
+    font-family: "Arial";
+}
+
+
+/*link change*/
+a{
+    color: orange;
+    font-weight: bold;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+table{
+    border: 1px solid orange;
+    align-items: center;
+    width: 80%;
+    margin-left: 80px;
+
+}
+
+th,tr:nth-child(2){
+    background-color: rgb(255,230,204) ;
+}
+
+tr li{
+    margin-bottom: 10px;
+}
+
+.center{
+
+    text-align: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid orange;
+
+}
+
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+ul li{
+    list-style-type: none;
+    margin: .25em 0;
+    padding: 0 1em;
+    border-left: 1px solid orange;
+    font-size: 95%;
+}
+
+ul li:first-child{
+    border: none;
+}
