@@ -23,14 +23,12 @@ header .row{
 .row{
 	display: table;
 }
-
 .row .col{
 	font-size: 20px;
 	display: table-cell;
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
 .row .col-header{
 	display: table-cell;
 	padding: 10px;
@@ -39,8 +37,6 @@ header .row{
 	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 	margin: 20px;
 }
-
-
 .banner{
 	border: 1px solid black;
 }
