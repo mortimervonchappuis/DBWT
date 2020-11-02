@@ -133,4 +133,6 @@ value2
 
 - border-right
 
+- pseudo.class nthchild
+
 
