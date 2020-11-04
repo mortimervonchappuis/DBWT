@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>newsletteranmeldung</title>
+</head>
+<body>
+
+
+<!--checkboxen-->
+<form action="formdata.html" method="post">
+    <fieldset>
+        <legend>Anmeldung</legend>
+
+        <label>Anrede</label> <br>
+        <input type="radio" id="f" name="Anrede" value="Frau" >
+        <label for="f">Frau</label> <br>
+        <input type="radio" id="h" name="Anrede" value="Herr">
+        <label for="h" >Herr</label>
+    <br><br>
+<!--Namens Felder-->
+        <label for="vorname">Vorname<sup>*</sup></label><br>
+        <input type="text" name="name" id="vorname" required> <br>
+
+        <label for="nachname">Nachname<sup>*</sup></label><br>
+        <input type="text" name="name" id="nachname" required> <br>
+
+        <label for="email">E-Mail<sup>*</sup></label><br>
+        <input type="email" name="name" id="email" required> <br><br>
+
+<!--Benachrichtigungsinterval-->
+        <label for="interval">Benachrichtigungsinterval</label> <br>
+        <select id="interval" name="interval">
+            <option>Tag</option>
+            <option>Woche</option>
+            <option>Monat</option>
+
+        </select> <br><br>
+
+<!--Checkbox Datenschutz-->
+        <input type="checkbox" id="datenschutz" required>
+        <label for="datenschutz">Datenschutzhinweise gelesen</label>
+
+<!--Abschicken-->
+        <br>
+        <button type="submit">Abschicken</button>
+        <p><sup>*)</sup>Eingaben sind Pflicht</p>
+    </fieldset>
+</form>
+
+</body>
+</html>
