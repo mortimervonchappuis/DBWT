@@ -1,3 +1,12 @@
 Time: 05.11.20 Browser: 07:38 Mozilla/5.0 (X11; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0 IP: 127.0.0.1
 Time: 05.11.20 Browser: 07:38 Mozilla/5.0 (X11; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0 IP: 127.0.0.1
 Time: 05.11.20 Browser: 07:39 Mozilla/5.0 (X11; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0 IP: 127.0.0.1
+Time: 05.11.20 Browser: 10:05 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 IP: 127.0.0.1
+Time: 05.11.20 Browser: 10:05 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 IP: ::1
+Time: 05.11.20 Browser: 10:08 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.310 IP: 127.0.0.1
+Time: 05.11.20 Browser: 10:08 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 IP: 127.0.0.1
+Time: 05.11.20 Browser: 10:09 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 IP: 127.0.0.1
+Time: 05.11.20 Browser: 10:09 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 IP: 127.0.0.1
+Time: 05.11.20 Browser: 10:09 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 IP: 127.0.0.1
+Time: 05.11.20 Browser: 10:09 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 IP: 127.0.0.1
+Time: 05.11.20 Browser: 10:09 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 IP: 127.0.0.1
