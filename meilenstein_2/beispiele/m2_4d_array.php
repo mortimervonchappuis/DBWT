@@ -25,9 +25,30 @@ $famousMeals = [
 ];
 
 foreach($famousMeals as $key => $val){
-    echo "<li>".$val['name']."<br>".implode(', ', $val)."</li>
+    if (is_array($val['winner'])){
+        $years = join(', ', $val['winner']);
+    }
+    else{
+        $years = $val['winner'];
+    }
+    echo "<li>".$val['name']."<br>".$years."</li>
 ";
 }
+
+function no_winners($array, $start=2000, $stop=2020){
+    $winners=[];
+    foreach($array as $key => $val){
+        if (is_array($val['winner'])){
+            $winners = array_merge($winners, $val['winner']);
+        }
+        else{
+            array_push($winners, $val['winner']);
+        }
+    }
+    return array_diff(range($start, $stop), $winners);
+}
+
+echo "</ol>
+<p>There are no winners in the years ".join(', ', no_winners($famousMeals))."</p>";
 ?>
-</ol>
 </html>
