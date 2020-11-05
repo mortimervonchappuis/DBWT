@@ -76,33 +76,20 @@ const DATENSCHUTZ='datenschutz';
                     <th class="preis-head">
                         Preis extern
                     </th>
+                    <th class="preis.head">
+                        Bild
+                    </th>
                 </tr>
                 </thead>
 
                 <tbody>
-                <tr>
-                    <td class="preis-schrift">
-                        Rindfleisch mit Bambus, Kaiserschoten <br> und rotem Paprika, dazu Mie-Nudeln
-                    </td>
-                    <td class="preis-euro">
-                        3,50
-                    </td>
-                    <td class="preis-euro">
-                        6,20
-                    </td>
-                </tr>
-                <tr>
-                    <td class="preis-schrift">
-                        Spinatrisotto mit kleinen Samosateigecken <br> und ein gemischter Salat
-                    </td>
-                    <td class="preis-euro">
-                        2,90
-                    </td>
-                    <td class="preis-euro">
-                        5,30
-                    </td>
-                </tr>
+                <?php
+                include('gerichte.php')
+                ?>
                 <tr class=dots>
+                    <td>
+                        <p>...</p>
+                    </td>
                     <td>
                         <p>...</p>
                     </td>
