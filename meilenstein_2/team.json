@@ -1,0 +1,16 @@
+{
+	"team" : "INF_B",
+	"mitglieder":
+	[
+	  {
+		"matrikelnummer": 3149135,
+		"name": "Dominik Bien",
+		"ilias" : "db4954s"
+	  }
+	  {
+		"matrikelnummer": 3146023,
+		"name": "Mortimer von Chappuis",
+		"ilias" : "bv6727s"
+	  }
+	]
+}
