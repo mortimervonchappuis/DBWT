@@ -66,7 +66,7 @@ function login_post($name,$email,$language){
 function number_of_newsletter_subscribers(){
     global $filename;
     $subscriber = 0;
-    $file = fopen($filename);
+    $file = fopen($filename, 'r');
     while (!feof($file)){
         if (fgets($file)){
             $subscriber++;
