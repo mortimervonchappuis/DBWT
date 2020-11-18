@@ -105,7 +105,7 @@ include 'login_save.php';
                     Besuche
                 </li>
                 <li class="counter-var">
-
+                    y
                 </li>
                 <li class="counter-name">
                     Anmelungen zum Newsletter

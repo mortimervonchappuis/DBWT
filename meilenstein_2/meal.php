@@ -145,7 +145,7 @@ if($_GET['lan'] == 'e')
             <label for="show_description">Zeige die Beschreibung an</label><br>
 
             <label for="search_text">Filter:</label>
-            <input id="search_text" type="text" name="search_text"  value="<?php if (!empty($_GET[GET_PARAM_SEARCH_TEXT]))echo $_GET[GET_PARAM_SEARCH_TEXT] ?>">    <!-- Aufgabe 3f)-->
+            <input id="search_text" type="text" name="search_text"  value="<?php if (!empty($_GET[GET_PARAM_SEARCH_TEXT])) echo $_GET[GET_PARAM_SEARCH_TEXT] ?>">    <!-- Aufgabe 3f)-->
             <input type="submit" value="<?php echo $lang[$languagedecide][3]?>">
 
         </form>
