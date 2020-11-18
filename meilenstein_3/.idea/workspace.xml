@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f8dfba5-d22d-4e29-8ad9-01d4a99b029d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meilenstein_2/werbeseite (gemeinsam)/visit_count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/meilenstein_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dossier.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/accesslog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m2_4a_standardparameter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m2_4b_include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m2_4c_addform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m2_4d_array.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erstesPhp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsletteranmeldung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/e-mensa-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/img/dal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/img/noodles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/img/soup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/img/sushi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/login_save.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/logo-FH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/pseudo_db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meilenstein_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../meilenstein_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +49,7 @@
     <session id="2071087404">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -61,23 +96,46 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1874573900">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="php" value="510" />
+          <entry key="txt" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="PHP" value="510" />
+          <entry key="PLAIN_TEXT" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beispiele/accesslog.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="105" column="21" lean-forward="true" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+            <state relative-caret-position="-75">
+              <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -85,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            <state relative-caret-position="480">
+              <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
               <folding>
                 <element signature="e#6#148#0#PHP" expanded="true" />
               </folding>
@@ -98,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -106,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+            <state relative-caret-position="360">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="e#6#147#0#PHP" expanded="true" />
               </folding>
@@ -115,11 +173,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+            <state relative-caret-position="537">
+              <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -134,11 +201,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newsletteranmeldung.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -162,15 +224,16 @@
         <option value="$PROJECT_DIR$/beispiele/m2_4c_addform.php" />
         <option value="$PROJECT_DIR$/beispiele/m2_4d_array.php" />
         <option value="$PROJECT_DIR$/beispiele/accesslog.txt" />
-        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" />
         <option value="$PROJECT_DIR$/Dossier.md" />
         <option value="$PROJECT_DIR$/meal.php" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/accesslog.txt" />
         <option value="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" />
-        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt" />
-        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css" />
+        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php" />
+        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.txt" />
+        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" />
+        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" />
       </list>
     </option>
   </component>
@@ -214,17 +277,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="meilenstein_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meilenstein_2" type="462c0819:PsiDirectoryNode" />
+              <item name="meilenstein_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meilenstein_3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="meilenstein_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meilenstein_2" type="462c0819:PsiDirectoryNode" />
-              <item name="beispiele" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meilenstein_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meilenstein_2" type="462c0819:PsiDirectoryNode" />
+              <item name="meilenstein_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meilenstein_3" type="462c0819:PsiDirectoryNode" />
               <item name="werbeseite (gemeinsam)" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -236,7 +294,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../meilenstein_3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -256,8 +314,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.visit_count.php">
+  <component name="RunManager" selected="PHP Script.gerichte.php">
     <configuration name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/meilenstein_2/werbeseite (gemeinsam)/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="gerichte.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php">
       <method v="2" />
     </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php">
@@ -266,26 +327,23 @@
     <configuration name="m2_4e_accesslog.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php">
       <method v="2" />
     </configuration>
-    <configuration name="meal.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/meal.php">
-      <method v="2" />
-    </configuration>
     <configuration name="visit_count.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="PHP Script.m2_4e_accesslog.php" />
       <item itemvalue="PHP Script.index.php" />
-      <item itemvalue="PHP Script.meal.php" />
       <item itemvalue="JavaScript Debug.index.php" />
       <item itemvalue="PHP Script.visit_count.php" />
+      <item itemvalue="PHP Script.gerichte.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.gerichte.php" />
         <item itemvalue="PHP Script.visit_count.php" />
         <item itemvalue="JavaScript Debug.index.php" />
         <item itemvalue="PHP Script.index.php" />
         <item itemvalue="PHP Script.m2_4e_accesslog.php" />
-        <item itemvalue="PHP Script.meal.php" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +360,8 @@
       <workItem from="1604584919946" duration="16045000" />
       <workItem from="1605102909389" duration="2220000" />
       <workItem from="1605459895879" duration="682000" />
-      <workItem from="1605708803775" duration="3079000" />
+      <workItem from="1605708803775" duration="2973000" />
+      <workItem from="1605711884978" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="Spam">
       <created>1605711750588</created>
@@ -315,17 +374,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22026000" />
+    <option name="totallyTimeSpent" value="23151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16862327" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17022412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,7 +394,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3298969" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -417,19 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#147#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsletteranmeldung.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/beispiele/m2_4d_array.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -444,6 +491,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#147#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#148#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsletteranmeldung.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/beispiele/m2_4e_accesslog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -454,34 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="e#6#148#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="105" column="21" lean-forward="true" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+        <state relative-caret-position="-75">
+          <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
         </state>
       </provider>
     </entry>
