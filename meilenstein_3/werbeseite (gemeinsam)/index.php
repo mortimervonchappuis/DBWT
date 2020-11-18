@@ -1,4 +1,11 @@
 <?php
+/**
+ * Praktikum DBWT. Autoren:
+ * Dominik, Bien, 3149135
+ * Botho Karl Mortimer, von Chappuis, 3146023
+ * Date: 11/18/20
+ * Time: 3:17 PM
+ */
 include 'login_save.php';
 ?>
 <!DOCTYPE html>
@@ -105,7 +112,7 @@ include 'login_save.php';
                     Besuche
                 </li>
                 <li class="counter-var">
-                    y
+                    <?= number_of_newsletter_subscribers() ?>
                 </li>
                 <li class="counter-name">
                     Anmelungen zum Newsletter
