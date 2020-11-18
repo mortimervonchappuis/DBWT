@@ -123,8 +123,11 @@ footer ul{
 	display: inline;
 	font-size: 30px;
 }
-.counter-name{
-	padding-right: 100px;
+.counter-grid li{
+	padding-right: 70px;
+}
+.counter-grid li:last-child{
+	padding-right: 0px;
 }
 .fakenews ul {
 	margin-left: 300px;

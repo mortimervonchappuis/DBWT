@@ -99,7 +99,7 @@ include 'login_save.php';
             <h2 class="headline-bold">E-Mensa in Zahlen</h2>
             <ul class="counter-grid">
                 <li class="counter-var">
-                    x
+                    <?php include "visit_count.php" ?>
                 </li>
                 <li class="counter-name">
                     Besuche
