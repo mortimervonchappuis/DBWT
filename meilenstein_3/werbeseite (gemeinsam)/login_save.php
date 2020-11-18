@@ -8,9 +8,24 @@
  * Time: 3:17 PM
  */
 //leere variablen
-$filename = "pseudo_db.txt";
+$filename_db = "pseudo_db.txt";
 $name_error = $email_error = $datenschutz_error = "";
 $name = $email ="";
+
+function number_of_newsletter_subscribers(){
+    global $filename_db;
+    $subscriber = 0;
+    $file = fopen($filename_db, 'r');
+    while (!feof($file)){
+        if (fgets($file)){
+            $subscriber++;
+        }
+    }
+    fclose($file);
+    return $subscriber;
+}
+
+echo number_of_newsletter_subscribers();
 
 //post validation
 if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -55,26 +70,15 @@ if ($name_error =="" and $email_error == "" and $datenschutz_error == "")
 }
 
 function login_post($name,$email,$language){
-    global $filename;
-    $db = fopen($filename,"a");
+    global $filename_db;
+    $db = fopen($filename_db,"a");
     $login_string = $name.";".$email.";".$language."
 ";
     fwrite($db,$login_string);
     fclose($db);
 
 }
-function number_of_newsletter_subscribers(){
-    global $filename;
-    $subscriber = 0;
-    $file = fopen($filename, 'r');
-    while (!feof($file)){
-        if (fgets($file)){
-            $subscriber++;
-        }
-    }
-    fclose($file);
-    return $subscriber;
-}
+
 
 //soll alle unnötigen zeichen entfernen um einen cleanen string draus zu machen
 function test_input($data) {
