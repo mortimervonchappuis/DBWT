@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8dfba5-d22d-4e29-8ad9-01d4a99b029d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt" afterDir="false" />
-    </list>
+    <list default="true" id="8f8dfba5-d22d-4e29-8ad9-01d4a99b029d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,7 +371,7 @@
       <workItem from="1605459895879" duration="682000" />
       <workItem from="1605708803775" duration="2973000" />
       <workItem from="1605711884978" duration="2409000" />
-      <workItem from="1605714429854" duration="10673000" />
+      <workItem from="1605714429854" duration="11273000" />
     </task>
     <task id="LOCAL-00001" summary="Spam">
       <created>1605711750588</created>
@@ -390,10 +384,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35002000" />
+    <option name="totallyTimeSpent" value="35602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1002" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17182498" />
