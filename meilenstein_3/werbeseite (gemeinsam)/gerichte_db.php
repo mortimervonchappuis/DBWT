@@ -8,18 +8,18 @@
  */
 
 
-$filename = "gerichte.csv";
-$file = fopen($filename, 'r');
+// Aufgabe 7
+$port = 3306;
+$link = mysqli_connect("127.0.0.1", "root", "root","emensawerbeseite", $port);
+
 $gerichte = [];
-$keys = ['name', 'preis_intern', 'preis_extern', 'bild'];
-while (!feof($file)){
-    $line = explode(";", fgets($file));
-    $gericht = [];
-    for ($i = 0; $i < sizeof($keys); $i++){
-        $array[$keys[$i]] = $line[$i];
-    }
-    array_push($gerichte, $array);
+$allergene = [];
+$query = "SELECT g.name, g.preis_intern, g.preis_extern, GROUP_CONCAT(gha.code) FROM gericht as g JOIN gericht_hat_allergen AS gha GROUP BY g.id ORDER BY RAND() LIMIT 5;";
+$result = mysqli_query($link, $query);
+while ($row = mysqli_fetch_row($result)){
+    array_push($gerichte, $row);
 }
+
 
 
 function number_of_meals(){
@@ -31,16 +31,16 @@ foreach($gerichte as $gericht){
     echo " 
                 <tr>
                     <td class=\"preis-schrift\">
-                        ".$gericht['name']."
+                        ".$gericht[0]."
                     </td>
                     <td class=\"preis-euro\">
-                        ".$gericht['preis_intern']."
+                        ".number_format($gericht[1], 2)."€
                     </td>
                     <td class=\"preis-euro\">
-                        ".$gericht['preis_extern']."
+                        ".number_format($gericht[2], 2)."€
                     </td>
                     <td>
-                        <img src='img/".$gericht['bild']."' alt='nope' width=200>
+                        ".$gericht[3]."
                     </td>
                 </tr>";
 }

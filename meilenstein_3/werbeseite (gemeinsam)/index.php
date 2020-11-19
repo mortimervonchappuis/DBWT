@@ -82,7 +82,8 @@ include 'login_save.php';
 
                 <tbody>
                 <?php
-                include('gerichte.php')
+                include('gerichte_db.php'); //Mit DB
+                //include('gerichte.php'); //Ohne DB
                 ?>
                 <tr class=dots>
                     <td>
