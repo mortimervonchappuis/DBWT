@@ -14,7 +14,7 @@ $link = mysqli_connect("127.0.0.1", "root", "root","emensawerbeseite", $port);
 
 $gerichte = [];
 $allergene = [];
-$query = "SELECT g.name, g.preis_intern, g.preis_extern, GROUP_CONCAT(gha.code) FROM gericht as g JOIN gericht_hat_allergen AS gha GROUP BY g.id ORDER BY RAND() LIMIT 5;";
+$query = "SELECT g.name, g.preis_intern, g.preis_extern, GROUP_CONCAT(gha.code) FROM gericht as g JOIN gericht_hat_allergen AS gha ON gha.gericht_id = g.id GROUP BY g.id ORDER BY RAND() LIMIT 5;";
 $result = mysqli_query($link, $query);
 while ($row = mysqli_fetch_row($result)){
     array_push($gerichte, $row);
@@ -31,7 +31,25 @@ function number_of_meals(){
     global $gerichte;
     return sizeof($gerichte);
 }
+echo "<table class=\"preis\">
+                <thead>
+                <tr>
+                    <th>
 
+                    </th>
+                    <th class=\"preis-head\">
+                        Preis intern
+                    </th>
+                    <th class=\"preis-head\">
+                        Preis extern
+                    </th>
+                    <th class=\"preis.head\">
+                        Allergene
+                    </th>
+                </tr>
+                </thead>
+
+                <tbody>";
 foreach($gerichte as $gericht){
     echo " 
                 <tr>
@@ -50,5 +68,23 @@ foreach($gerichte as $gericht){
                 </tr>";
 }
 
-echo "<tr>".(implode(', ', $allergene))."</tr>";
+echo "<tr class=dots>
+                    <td>
+                        <p>...</p>
+                    </td>
+                    <td>
+                        <p>...</p>
+                    </td>
+                    <td>
+                        <p>...</p>
+                    </td>
+                    <td>
+                        <p>...</p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>";
+
+echo "<h3>Liste aller Allergene</h3>
+<p>".(implode(', ', $allergene))."</p>";
 ?>

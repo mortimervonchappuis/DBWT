@@ -67,44 +67,11 @@ $gerichte_file = 'gerichte_db.php';
         <!--Preis tabelle-->
         <div class="preis" id="speisen">
             <h2 class="headline-bold">Köstlichkeiten, die Sie erwarten!</h2>
-            <table class="preis">
-                <thead>
-                <tr>
-                    <th>
 
-                    </th>
-                    <th class="preis-head">
-                        Preis intern
-                    </th>
-                    <th class="preis-head">
-                        Preis extern
-                    </th>
-                    <th class="preis.head">
-                        <?= (strpos($gerichte_file, 'db')  !== false ? 'Allergene' : 'Bild') ?>
-                    </th>
-                </tr>
-                </thead>
-
-                <tbody>
                 <?php
                 include($gerichte_file);
                 ?>
-                <tr class=dots>
-                    <td>
-                        <p>...</p>
-                    </td>
-                    <td>
-                        <p>...</p>
-                    </td>
-                    <td>
-                        <p>...</p>
-                    </td>
-                    <td>
-                        <p>...</p>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+
         </div>
 
         <div class="counter" id="counter">

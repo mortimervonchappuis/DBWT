@@ -26,6 +26,25 @@ function number_of_meals(){
     global $gerichte;
     return sizeof($gerichte);
 }
+echo "<table class=\"preis\">
+                <thead>
+                <tr>
+                    <th>
+
+                    </th>
+                    <th class=\"preis-head\">
+                        Preis intern
+                    </th>
+                    <th class=\"preis-head\">
+                        Preis extern
+                    </th>
+                    <th class=\"preis.head\">
+                        Bild
+                    </th>
+                </tr>
+                </thead>
+
+                <tbody>";
 
 foreach($gerichte as $gericht){
     echo " 
@@ -44,4 +63,20 @@ foreach($gerichte as $gericht){
                     </td>
                 </tr>";
 }
+echo "<tr class=dots>
+                    <td>
+                        <p>...</p>
+                    </td>
+                    <td>
+                        <p>...</p>
+                    </td>
+                    <td>
+                        <p>...</p>
+                    </td>
+                    <td>
+                        <p>...</p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>";
 ?>
