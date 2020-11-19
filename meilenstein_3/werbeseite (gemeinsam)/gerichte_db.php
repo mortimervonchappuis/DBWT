@@ -18,6 +18,11 @@ $query = "SELECT g.name, g.preis_intern, g.preis_extern, GROUP_CONCAT(gha.code) 
 $result = mysqli_query($link, $query);
 while ($row = mysqli_fetch_row($result)){
     array_push($gerichte, $row);
+    foreach(explode(',', $row[3]) as $allergen){
+        if (!in_array($allergen, $allergene)){
+            array_push($allergene, $allergen);
+        }
+    }
 }
 
 
@@ -44,4 +49,6 @@ foreach($gerichte as $gericht){
                     </td>
                 </tr>";
 }
+
+echo "<tr>".(implode(', ', $allergene))."</tr>";
 ?>
