@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f8dfba5-d22d-4e29-8ad9-01d4a99b029d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/login_save.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/login_save.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/pseudo_db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/pseudo_db.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,20 +101,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1695">
-              <caret line="113" column="40" lean-forward="true" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+            <state relative-caret-position="555">
+              <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/login_save.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="375">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -129,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#6#148#0#PHP" expanded="true" />
               </folding>
@@ -162,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -349,7 +348,7 @@
       <workItem from="1605459895879" duration="682000" />
       <workItem from="1605708803775" duration="2973000" />
       <workItem from="1605711884978" duration="2409000" />
-      <workItem from="1605714429854" duration="212000" />
+      <workItem from="1605714429854" duration="2733000" />
     </task>
     <task id="LOCAL-00001" summary="Spam">
       <created>1605711750588</created>
@@ -362,10 +361,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24541000" />
+    <option name="totallyTimeSpent" value="27062000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1002" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17182498" />
@@ -373,7 +372,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,7 +516,7 @@
     <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -541,7 +540,7 @@
     <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#6#148#0#PHP" expanded="true" />
           </folding>
@@ -551,17 +550,17 @@
     <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/pseudo_db.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/index.php">
+    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/login_save.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="40" lean-forward="true" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+        <state relative-caret-position="375">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/login_save.php">
+    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="555">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
         </state>
       </provider>
     </entry>
