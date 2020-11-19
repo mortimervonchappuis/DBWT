@@ -40,7 +40,7 @@ foreach($gerichte as $gericht){
                         ".number_format($gericht[2], 2)."€
                     </td>
                     <td>
-                        ".$gericht[3]."
+                        <small>".$gericht[3]."</small>
                     </td>
                 </tr>";
 }

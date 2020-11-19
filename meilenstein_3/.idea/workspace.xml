@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f8dfba5-d22d-4e29-8ad9-01d4a99b029d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/pseudo_db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/pseudo_db.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,17 +74,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="19" />
           <entry key="dummy" value="3" />
-          <entry key="php" value="2137" />
+          <entry key="php" value="2147" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="19" />
           <entry key="HTML" value="2" />
-          <entry key="PHP" value="2135" />
+          <entry key="PHP" value="2145" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -105,7 +104,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -164,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+            <state relative-caret-position="426">
+              <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -179,11 +178,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+            <state relative-caret-position="456">
+              <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -226,15 +225,15 @@
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/accesslog.txt" />
         <option value="$PROJECT_DIR$/beispiele/m2_4e_accesslog.php" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.txt" />
-        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.txt" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/pseudo_db.txt" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/login_save.php" />
         <option value="$PROJECT_DIR$/beispiele/m3_8a_testdatenbank.php" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" />
-        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php" />
         <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" />
+        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php" />
+        <option value="$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css" />
       </list>
     </option>
   </component>
@@ -368,7 +367,7 @@
       <workItem from="1605459895879" duration="682000" />
       <workItem from="1605708803775" duration="2973000" />
       <workItem from="1605711884978" duration="2409000" />
-      <workItem from="1605714429854" duration="8243000" />
+      <workItem from="1605714429854" duration="8593000" />
     </task>
     <task id="LOCAL-00001" summary="Spam">
       <created>1605711750588</created>
@@ -381,7 +380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32572000" />
+    <option name="totallyTimeSpent" value="32922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
@@ -508,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/beispiele/m2_4e_accesslog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -562,17 +554,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/werbeseite (gemeinsam)/mockup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
         </state>
       </provider>
     </entry>
