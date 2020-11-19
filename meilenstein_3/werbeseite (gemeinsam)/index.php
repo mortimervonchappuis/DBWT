@@ -6,7 +6,12 @@
  * Date: 11/18/20
  * Time: 3:17 PM
  */
-include 'login_save.php';
+include('login_save.php');
+
+$gerichte_file = 'gerichte_db.php';
+
+// alternativ
+//$gerichte_file = 'gerichte.php';
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -75,15 +80,14 @@ include 'login_save.php';
                         Preis extern
                     </th>
                     <th class="preis.head">
-                        Bild
+                        <?= (strpos($gerichte_file, 'db')  !== false ? 'Allergene' : 'Bild') ?>
                     </th>
                 </tr>
                 </thead>
 
                 <tbody>
                 <?php
-                include('gerichte_db.php'); //Mit DB
-                //include('gerichte.php'); //Ohne DB
+                include($gerichte_file);
                 ?>
                 <tr class=dots>
                     <td>
