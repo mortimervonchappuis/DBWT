@@ -135,6 +135,6 @@ footer ul{
 #fliesstext{
 	font-size: 20px;
 }
-table tr td small {
-	font-size: 5px;
+td small {
+	font-size: 5px !important;
 }
