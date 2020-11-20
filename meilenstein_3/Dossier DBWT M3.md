@@ -3,10 +3,10 @@
 | Aufgabe | Geschäzt          | Tatsächlich |
 | ------- | ----------------- | ----------- |
 | $1$     | 30 min            | 60 min      |
-| $2$     |                   |             |
+| $2$     | 20 min            | 100 min      |
 | $3$     | 60 min (Linux...) | 150 min     |
 | $4$     | 60 min            | 20 min      |
-| $5$     |                   |             |
+| $5$     | 90 min            | 70 min             |
 | $6$     | 30 min            | 30 min      |
 | $7$     | 60 min            | 100 min     |
 | $8$     | 40 min            | 80 min      |
