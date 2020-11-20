@@ -25,8 +25,6 @@ while ($row = mysqli_fetch_row($result)){
     }
 }
 
-
-
 function number_of_meals(){
     global $gerichte;
     return sizeof($gerichte);
