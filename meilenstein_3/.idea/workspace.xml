@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8dfba5-d22d-4e29-8ad9-01d4a99b029d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dossier DBWT M3.md" beforeDir="false" afterPath="$PROJECT_DIR$/Dossier DBWT M3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dossier.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/gerichte_db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/login_save.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/login_save.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite (gemeinsam)/visit_count.php" afterDir="false" />
-    </list>
+    <list default="true" id="8f8dfba5-d22d-4e29-8ad9-01d4a99b029d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +62,7 @@
     <session id="1874573900">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.opened" value="2" />
@@ -154,22 +146,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dossier DBWT M3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="-199" />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dossier DBWT M3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34194">
+            <state relative-caret-position="156">
+              <caret line="2281" column="95" selection-start-line="2281" selection-start-column="95" selection-end-line="2281" selection-end-column="95" />
               <folding>
                 <element signature="n#style#0;n#p#1;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#6;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#9;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#13;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -268,7 +265,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="34" />
     <option name="width" value="1390" />
@@ -394,7 +391,7 @@
       <workItem from="1605459895879" duration="682000" />
       <workItem from="1605708803775" duration="2973000" />
       <workItem from="1605711884978" duration="2409000" />
-      <workItem from="1605714429854" duration="12313000" />
+      <workItem from="1605714429854" duration="12379000" />
     </task>
     <task id="LOCAL-00001" summary="Spam">
       <created>1605711750588</created>
@@ -407,10 +404,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36642000" />
+    <option name="totallyTimeSpent" value="36708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1002" extended-state="7" />
+    <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17182498" />
@@ -418,7 +415,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,20 +605,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier DBWT M3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Dossier DBWT M3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="2281" column="95" selection-start-line="2281" selection-start-column="95" selection-end-line="2281" selection-end-column="95" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#9;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#13;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier DBWT M3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34194">
-          <folding>
-            <element signature="n#style#0;n#p#1;n#blockquote#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Dossier DBWT M3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-199" />
+          <second_editor />
         </state>
       </provider>
     </entry>
