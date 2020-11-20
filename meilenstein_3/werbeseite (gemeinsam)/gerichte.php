@@ -21,7 +21,6 @@ while (!feof($file)){
     array_push($gerichte, $array);
 }
 
-
 function number_of_meals(){
     global $gerichte;
     return sizeof($gerichte);

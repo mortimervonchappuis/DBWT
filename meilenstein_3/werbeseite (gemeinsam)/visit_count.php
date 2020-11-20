@@ -17,8 +17,7 @@ else{
 }
 $line = date("d.m.y").";".$addr."\n";
 fwrite($file, $line);
-rewind($file);
-
+rewind($file); // setzt den filepointer wieder auf den Startpunkt zurück
 $visitors = [];
 $numer_of_visitors = 0;
 while (!feof($file)){
@@ -28,6 +27,6 @@ while (!feof($file)){
         array_push($visitors, $line);
     }
 }
-echo $numer_of_visitors." (".(sizeof($visitors) - 1).") "; //last line in file is empty and therefore does not count
+echo $numer_of_visitors." (".(sizeof($visitors) - 1).") "; // the minus one in needed because the last line in file is empty and therefore does not count
 fclose($file);
 ?>

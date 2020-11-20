@@ -10,8 +10,10 @@ include('login_save.php');
 
 $gerichte_file = 'gerichte_db.php';
 
-// alternativ
+// alternativ für die früheren Aufgaben des M3
 //$gerichte_file = 'gerichte.php';
+
+
 ?>
 <!DOCTYPE html>
 <html lang="de">

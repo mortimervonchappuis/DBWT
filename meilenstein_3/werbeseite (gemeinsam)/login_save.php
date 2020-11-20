@@ -59,11 +59,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     }
 
-
     if (!isset($_POST["datenschutz"])){
         $datenschutz_error= "Die Box muss angekreuzt sein!";}
-
-
 
 if ($name_error =="" and $email_error == "" and $datenschutz_error == "")
     {login_post($name,$email,$_POST["language"]);}
@@ -82,8 +79,8 @@ function login_post($name,$email,$language){
 
 //soll alle unnötigen zeichen entfernen um einen cleanen string draus zu machen
 function test_input($data) {
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
+    $data = trim($data); // schneidet leerzeichen und tabs am anfang und ende des strings ab
+    $data = stripslashes($data); // selbsterklärend
+    $data = htmlspecialchars($data); // html character substitution
     return $data;
 }

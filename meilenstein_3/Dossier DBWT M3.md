@@ -1,18 +1,16 @@
 # Dossier DBWT M3
 
-| Aufgabe | Geschäzt | Tatsächlich |
-| ------- | -------- | ----------- |
-| $1$     | 30 min   | 60 min      |
-| $2$     |          |             |
-| $3$     |          |             |
-| $4$     |          |             |
-| $5$     |          |             |
-| $6$     |          |             |
-| $7$     |          |             |
-| $8$     |          |             |
-| $9$     |          |             |
-
-
+| Aufgabe | Geschäzt          | Tatsächlich |
+| ------- | ----------------- | ----------- |
+| $1$     | 30 min            | 60 min      |
+| $2$     |                   |             |
+| $3$     | 60 min (Linux...) | 150 min     |
+| $4$     | 60 min            | 20 min      |
+| $5$     |                   |             |
+| $6$     | 30 min            | 30 min      |
+| $7$     | 60 min            | 100 min     |
+| $8$     | 40 min            | 80 min      |
+| $9$     | 20 min            | 10 min      |
 
 ### Aufgabe 8.1
 
@@ -30,9 +28,7 @@ Folgende Argumente sprechen für die Verwendung einer Datenbank über die einer 
 
 ### Aufgabe 8.2.2, 8.2.3
 
-> Rückfrage(<u>Rückfragenummer</u>, Alter, Dringlichkeit, 
-> 
-> Text, Erfassungszeitpunkt, <p style="text-decoration:underline;text-decoration-style: dotted;">Kontakt</p>)
+> Rückfrage(<u>Rückfragenummer</u>, Alter, Dringlichkeit, Text, Erfassungszeitpunkt, <p style="text-decoration:underline;text-decoration-style: dotted;">Kontakt</p>, Lieferungszeitfenster, <p style="text-decoration:underline;text-decoration-style: dotted;">Thema</p>)
 > 
 > 
 > 
@@ -40,32 +36,26 @@ Folgende Argumente sprechen für die Verwendung einer Datenbank über die einer 
 > 
 > 
 > 
-> Kontakt(<u>ID</u>, E-Mail, Anrede, Telefonnummer,  Vorname, 
-> 
-> Nachname, <p style="text-decoration:underline;text-decoration-style: dotted;">Rechnungsaddresse</p>)
+> Kontakt(<u>ID</u>, E-Mail, Anrede, Telefonnummer,  Vorname, Nachname, <p style="text-decoration:underline;text-decoration-style: dotted;">Rechnungsaddresse</p>)
 > 
 > 
 > 
-> Lieferant(<u>ID</u>, E-Mail, Anrede, Telefonnummer, Vorname, 
-> 
-> Nachname, Rechnungsaddresse, <p style="text-decoration:underline;text-decoration-style: dotted;">Lieferungszeitfenster</p>)
+> Lieferant(<u>ID</u>, E-Mail, Anrede, Telefonnummer, Vorname, Nachname, Rechnungsaddresse, <p style="text-decoration:underline;text-decoration-style: dotted;">Lieferungszeitfenster ID</p>)
 > 
 > 
 > 
-> Lieferungszeitfenster(), Morgens(), Mittags(), Abends()
+> Lieferungszeitfenster(<u>ID</u>, Wochentag), Morgens(<u>ID</u>, Wochentag), Mittags(<u>ID</u>, Wochentag), Abends(<u>ID</u>, Wochentag)
 > 
 > 
 > 
-> Kontakt(<u>ID</u>, E-Mail, Anrede, Telefonnummer, Vorname, 
-> 
-> Nachname, Rechnungsaddresse, <p style="text-decoration:underline;text-decoration-style: dotted;">Hausanschrift</p>)
+> Kontakt(<u>ID</u>, E-Mail, Anrede, Telefonnummer, Vorname, Nachname, Rechnungsaddresse, <p style="text-decoration:underline;text-decoration-style: dotted;">Hausanschrift ID</p>)
 > 
 > 
 > 
-> Hausanschrift(Straße, Hausnummer, PLZ, Ort)
+> Hausanschrift(<u>ID</u>, Straße, Hausnummer, PLZ, Ort)
 > 
-> Hauptswohnsitz(Straße, Hausnummer, PLZ, Ort)
+> Hauptswohnsitz(<u>ID</u>, Straße, Hausnummer, PLZ, Ort)
 > 
-> Zweitwohnsitz(Straße, Hausnummer, PLZ, Ort)
+> Zweitwohnsitz(<u>ID</u>, Straße, Hausnummer, PLZ, Ort)
 
 
