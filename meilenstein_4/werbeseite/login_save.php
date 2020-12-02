@@ -25,7 +25,7 @@ function number_of_newsletter_subscribers(){
     return $subscriber;
 }
 
-echo number_of_newsletter_subscribers();
+// echo number_of_newsletter_subscribers();
 
 //post validation
 if($_SERVER["REQUEST_METHOD"] == "POST"){
