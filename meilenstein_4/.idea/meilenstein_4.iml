@@ -16,6 +16,7 @@
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/eftec/bladeone" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/egulias/email-validator" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/facade/flare-client-php" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/facade/ignition" />
