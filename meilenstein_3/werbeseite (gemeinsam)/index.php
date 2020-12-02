@@ -11,7 +11,7 @@ include('login_save.php');
 $gerichte_file = 'gerichte_db.php';
 
 // alternativ für die früheren Aufgaben des M3
-//$gerichte_file = 'gerichte.php';
+// $gerichte_file = 'gerichte.php';
 
 
 ?>
