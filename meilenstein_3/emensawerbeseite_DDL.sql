@@ -34,7 +34,7 @@ CREATE TABLE kategorie(
   bildname VARCHAR(200),
   FOREIGN KEY (eltern_id) REFERENCES kategorie(id),
   PRIMARY KEY (id)
-)
+);
 
 CREATE TABLE gericht_hat_allergen(
   code CHAR(4),

@@ -8,7 +8,7 @@
  * Time: 3:17 PM
  */
 //leere variablen
-$filename_db = "pseudo_db.txt";
+$filename_db = "pseudo_db.csv";
 $name_error = $email_error = $datenschutz_error = "";
 $name = $email ="";
 
