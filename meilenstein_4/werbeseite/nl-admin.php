@@ -9,6 +9,8 @@
  * Time: 15:00 PM
  */
 
+include("sanitize.php");
+
 $name_status = 'unchecked';
 $email_status = 'unchecked';
 
@@ -40,7 +42,7 @@ while(!feof($file)){
  */
 $showUserData = [];
 if (!empty($_GET[GET_PARAM_SEARCHTEXT])) {
-    $searchterm = $_GET[GET_PARAM_SEARCHTEXT];
+    $searchterm = sanatize($_GET[GET_PARAM_SEARCHTEXT]);
     foreach ($datainput as $userdata) {
         if (stripos($userdata['name'],$searchterm) !== false){
             $showUserData[] = $userdata;

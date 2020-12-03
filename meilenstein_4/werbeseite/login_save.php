@@ -71,7 +71,7 @@ if ($name_error =="" and $email_error == "" and $datenschutz_error == "")
 function login_post($name,$email,$language){
     global $filename_db;
     $db = fopen($filename_db,"a");
-    $login_string = $name.";".$email.";".$language."
+    $login_string = sanitize($name).";".sanitize($email).";".sanitize($language)."
 ";
     fwrite($db,$login_string);
     fclose($db);
@@ -84,5 +84,6 @@ function test_input($data) {
     $data = trim($data); // schneidet leerzeichen und tabs am anfang und ende des strings ab
     $data = stripslashes($data); // selbsterklärend
     $data = htmlspecialchars($data); // html character substitution
+    $data = sanitize($data);
     return $data;
 }
