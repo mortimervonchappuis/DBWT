@@ -7,14 +7,15 @@
  * Time: 9:10 PM
  */
 include("db_stuff.php");
+include("sanitize.php");
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
-    $verfasser = trim($_POST['verfasser']);
+    $verfasser = trim(sanitize($_POST['verfasser']));
     if ($verfasser == ''){
         $verfasser = 'anonym';
     }
-    $email = $_POST['e-mail'];
-    $name = $_POST['name'];
-    $beschreibung = $_POST['beschreibung'];
+    $email = sanitize($_POST['e-mail']);
+    $name = sanitize($_POST['name']);
+    $beschreibung = sanitize($_POST['beschreibung']);
 
 
     $query = "INSERT INTO wunschgericht(Name, Beschreibung, Erstelldatum) VALUES ('".$name."', '".$beschreibung."', NOW());";

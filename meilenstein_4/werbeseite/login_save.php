@@ -30,10 +30,12 @@ function number_of_newsletter_subscribers(){
 //post validation
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
+    include("sanitize.php");
+
     if (empty($_POST["name"]))
     { $name_error = "<br>Das Namensfeld darf nicht leer sein!";}
     else {
-        $name = test_input($_POST["name"]);
+        $name = sanatize(test_input($_POST["name"]));
         //Check ob der name nur Buchstaben und space benutzt (gefunden auf Stackoverflow)
 
         if (!preg_match("/^[a-zA-Z][a-zA-Z ]*$/", $name))
@@ -45,7 +47,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $email_error = "<br>Es muss eine E-Mail eingetragen sein!";}
     else
     {
-        $email = test_input($_POST["email"]);
+        $email = sanatize(test_input($_POST["email"]));
         if (!filter_var($email, FILTER_VALIDATE_EMAIL))
             {$email_error = "<br>Keine gültige E-Mail!";}
         else if (strpos($email,"rcpt.at"))
