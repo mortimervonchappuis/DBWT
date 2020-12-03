@@ -12,5 +12,7 @@ function sanitize($text){
     $text = str_replace('"', '', $text);
     $text = str_replace(';', '', $text);
     $text = str_replace('--', '', $text);
+    $text = str_replace('<script>', '', $text);
+    $text = str_replace('</script>', '', $text);
     return $text;
 }
