@@ -5,7 +5,7 @@
 @section('content')
     <div class="newsletter" id="newsletter">
         <h2 class="headline-bold">Interesse geweckt? Wir informieren Sie!</h2>
-        <form action="" method="post">
+        <form method="post">
             <div class=row>
                 <div class=col>
                     <p class="newsletter-vorname">

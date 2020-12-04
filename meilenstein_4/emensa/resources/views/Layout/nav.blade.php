@@ -15,7 +15,7 @@
                     <a href="/meals">Speisen</a>
                 </li>
                 <li class="menu-item">
-                    <a href="/visits">Zahlen</a>
+                    <a href="">Zahlen</a>
                 </li>
                 <li class="menu-item">
                     <a href="/contact">Kontakt</a>

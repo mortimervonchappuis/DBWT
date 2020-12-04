@@ -22,6 +22,6 @@ Route::get('/page','\App\Http\Controllers\m4_A6Controller@showPage');
 
 Route::view('/','Homepage/news');
 Route::view('/contact','Homepage/contact');
-//Route::post('/contact','');
+Route::post('/contact','\App\Http\Controllers\EmensaController@storeNewsletter');
 Route::view('/about','Homepage/about');
 Route::get('/meals','App\Http\Controllers\EmensaController@indexGerichte');

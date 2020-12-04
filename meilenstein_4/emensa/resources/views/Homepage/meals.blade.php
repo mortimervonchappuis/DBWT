@@ -3,13 +3,13 @@
     Meal List
 @endsection
 @section('content')
-    <div class="preis" id="speisen">
-        <h2 class="headline-bold">Köstlichkeiten, die Sie erwarten!</h2>
-        <table class=\"preis\">
+    <div class="preis" id="speisen" >
+        <h2 class="headline-bold" style="text-align: center">Köstlichkeiten, die Sie erwarten!</h2>
+        <table class=\"preis\" style="margin: auto">
             <thead>
             <tr>
-                <th>
-
+                <th class=\"preis-head\">
+                    Gericht
                 </th>
                 <th class=\"preis-head\">
                     Preis intern
@@ -37,7 +37,7 @@
                         {{$meal->preis_extern}}
                     </td>
                     <td>
-                        <small>Nothing yet</small>
+                        <small>{{$meal->code ?? 'Nothing'}}</small>
                     </td>
                 </tr>
             @endforeach
