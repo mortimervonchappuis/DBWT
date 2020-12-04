@@ -3,7 +3,7 @@
         <!--logo-->
         <div class="col-header logo">
             <!--<img class="logo-img" id=logo src="e-mensa-logo.png"> -->
-            <a href="/home"><h1>E-Mensa Logo</h1></a>
+            <a href="/"><h1>E-Mensa Logo</h1></a>
         </div>
         <!--Menu-Navigation-->
         <div class=col-header>

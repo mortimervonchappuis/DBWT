@@ -13,9 +13,12 @@
                 </th>
                 <th class=\"preis-head\">
                     Preis intern
+                    <small>in €</small>
                 </th>
                 <th class=\"preis-head\">
                     Preis extern
+                    <small>in €</small>
+
                 </th>
                 <th class=\"preis.head\">
                     Allergene
@@ -37,7 +40,7 @@
                         {{$meal->preis_extern}}
                     </td>
                     <td>
-                        <small>{{$meal->code ?? 'Nothing'}}</small>
+                        <small>{{$meal->gha_code ?? 'Nothing'}}</small>
                     </td>
                 </tr>
             @endforeach
