@@ -25,35 +25,7 @@ $gerichte_file = 'gerichte_db.php';
 </head>
 <!--Top-->
 <body>
-<header class="site-head">
-    <nav class="row">
-        <!--logo-->
-        <div class="col-header logo">
-            <!--<img class="logo-img" id=logo src="e-mensa-logo.png"> -->
-            <h1>E-Mensa Logo</h1>
-        </div>
-        <!--Menu-Navigation-->
-        <div class=col-header>
-            <ul id="menu-hauptnavigation" class="menu">
-                <li class="menu-item" >
-                    <a href="#neuigkeiten">Ankündigung</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#speisen">Speisen</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#counter">Zahlen</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#newsletter">Kontakt</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#info">Wichtig für uns</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
+<?php include("parts/header.html"); ?>
 <main>
     <hr>
     <div class=container>
@@ -157,13 +129,6 @@ $gerichte_file = 'gerichte_db.php';
         <h2 class="last-headline-bold">Wir freuen uns auf Ihren Besuch!</h2>
     </div>
 </main>
-<hr>
-<footer class="fuss">
-    <ul class="fuss-list">
-        <li>&copy; E-Mensa GmbH</li>
-        <li>Dominik Bien & Mortimer von Chappuis</li>
-        <li><a href="impressum.html">Impressum</a></li>
-    </ul>
-</footer>
+<?php include("parts/footer.html"); ?>
 </body>
 </html>
