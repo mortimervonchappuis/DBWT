@@ -23,10 +23,12 @@ Route::get('/page','\App\Http\Controllers\m4_A6Controller@showPage');
 
 Route::view('/','Homepage/news');
 Route::view('/contact','Homepage/contact');
-// Route::post('/contact','\App\Http\Controllers\EmensaController@storeNewsletter');
+//Route::post('/contact','\App\Http\Controllers\EmensaController@storeNewsletter');
 Route::view('/about','Homepage/about');
 Route::get('/meals','App\Http\Controllers\EmensaController@indexGerichte');
+Route::get('/meals/Suppen','App\Http\Controllers\EmensaController@indexSuppen');
+Route::get('/meals/allergyList', function (){return view('mealFilter.allergyList', ['allergenList'=> \App\Models\Allergen::all()]);});
+
 Route::view('/login', 'Homepage/anmeldung');
 Route::post('/verify', 'App\Http\Controllers\LoginController@login');
-// Route::get('/verify', 'App\Http\Controllers\LoginController@login');
 Route::get('/logout', 'App\Http\Controllers\LoginController@logout');

@@ -3,6 +3,7 @@
     Meal List
 @endsection
 @section('content')
+    @include('mealfilter.mealnav')
     <div class="preis" id="speisen" >
         <h2 class="headline-bold" style="text-align: center">Köstlichkeiten, die Sie erwarten!</h2>
         <table class=\"preis\" style="margin: auto">
@@ -59,7 +60,16 @@
                 </td>
             </tr>
             </tbody>
+            <tfoot>
+
+                    <td>
+                        <a href="/meals/allergyList" style="text-align: center">Klicke hier für die liste aller Allergene</a>
+                    </td>
+
+            </tfoot>
         </table>
 
     </div>
+
+
 @endsection

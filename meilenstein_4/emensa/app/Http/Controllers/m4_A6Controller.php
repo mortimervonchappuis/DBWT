@@ -7,8 +7,9 @@ use Illuminate\Support\Facades\DB;
 
 class m4_A6Controller extends Controller
 {
-    public function show ($get){
-        return view('examples/m4_6a_queryparameter',['name'=>$get]);
+    public function show (Request $request){
+        $param = $request->input();
+        return view('examples/m4_6a_queryparameter',);
     }
 
     public function showKategorie(){

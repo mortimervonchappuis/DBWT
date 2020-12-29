@@ -9,5 +9,5 @@
 
 
 $port = 3306;
-$link = mysqli_connect("127.0.0.1", "root", "root","emensawerbeseite", $port);
+$link = mysqli_connect("127.0.0.1", "root", "","emensawerbeseite", $port);
 ?>
