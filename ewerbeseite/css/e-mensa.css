@@ -1,0 +1,134 @@
+.frame{
+    margin: 0 40px 20px 40px;
+}
+
+.navbar-brand{
+    width: 20%;
+}.navbar-brand > img{
+    width: 100%;
+}
+
+.slider{
+    height: 600px;
+    background-image: radial-gradient(#cab69e 40%,#00b5ad);
+}
+.slider img{
+    padding-top: 150px;
+    max-width: 100%;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.content{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.center{
+    text-align: center;
+}
+
+.keywords li{
+    margin-left: 20%;
+}
+
+.footer{
+    border-top: black solid 2px;
+    text-align: center;
+    padding: 15px;
+
+}
+.footer li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a{
+    color: #00b5ad;
+}
+
+body{
+    font-size: 1.2em;
+    font-family: "Bradley Hand ITC";
+}
+
+.info{
+    padding: 15px 8px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.place{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.angebot{
+    margin: auto;
+    border-collapse: collapse;
+    min-width: 400px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.angebot thead tr{
+    background-color: #00b5ad;
+    color: #ffffff;
+    text-align: center;
+}
+
+.angebot th, .angebot td{
+    padding: 9px;
+    text-align: center;
+}
+
+.angebot td, .angebot tr{
+    border: lightgray 1px solid;
+}
+
+.angebot tbody td:first-of-type {
+    text-align: left;
+}
+
+.angebot tbody tr:nth-child(even){
+    background: #f3f3f3;
+}
+
+.angebot tfoot{
+    text-align: center;
+    font-weight: bold;
+}
+
+.stats{
+    margin: auto;
+}
+.zahl{
+    color: #00b5ad;
+}
+
+.stats td{
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: larger;
+}
+.included-allergens{
+    font-size: 0.6em;
+    font-family: "Arial";
+}
+
+.allergens-info{
+    font-size: 0.7em;
+}
+.slider-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
