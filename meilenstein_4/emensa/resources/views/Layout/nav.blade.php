@@ -23,8 +23,18 @@
                 <li class="menu-item">
                     <a href="/about">Über uns</a>
                 </li>
+                <li class="menu-item">
+                    <?php
+                    if (!isset($_SESSION['user'])){
+                        echo '<a href="/login">Anmeldung</a>';
+                    }
+                    else{
+                        echo '<a href="/logout">Abmeldung</a>';
+                    }?>
+                </li>
             </ul>
         </div>
+        <?php if (isset($_SESSION['user'])) echo '<div class=col-header><p>Sie sind angemeldet als '.$_SESSION['user'].'</p></div>';?>
     </nav>
     <hr>
 </header>

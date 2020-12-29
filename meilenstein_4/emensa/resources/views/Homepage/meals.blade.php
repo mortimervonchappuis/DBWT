@@ -27,7 +27,6 @@
             </thead>
 
             <tbody>
-
             @foreach($mealList as $meal)
                 <tr>
                     <td class=\"preis-schrift\">
