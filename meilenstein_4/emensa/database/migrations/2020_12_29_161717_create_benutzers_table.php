@@ -15,13 +15,13 @@ class CreateBenutzersTable extends Migration
     {
         Schema::create('benutzers', function (Blueprint $table) {
             $table->id();
-            $table->string('e-mail',100)->unique();
-            $table->string('passwort',200);
+            $table->string('E_Mail',100)->unique();
+            $table->string('password',200);
             $table->boolean('admin');
             $table->integer('anzahl_fehler');
-            $table->integer('anzahl_anmeldung');
+            $table->integer('anzahl_anmeldungen');
             $table->timestamp('letzte_anmeldung');
-            $table->timestamp('fehler_anmeldung');
+            $table->timestamp('letzter_fehler');
         });
     }
 

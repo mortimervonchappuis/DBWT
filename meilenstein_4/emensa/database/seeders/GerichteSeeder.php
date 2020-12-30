@@ -21,7 +21,8 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>1,
             'vegan'=>1,
             'preis_intern'=>2.3,
-            'preis_extern'=>4.0
+            'preis_extern'=>4.0,
+            'bildname' => '01_bratkartoffel.jpg',
             ],
             [
             'name'=>'Bratkartoffeln mit Zwiebeln',
@@ -30,6 +31,7 @@ class GerichteSeeder extends Seeder
             'vegan'=>1,
             'preis_intern'=>2.3,
             'preis_extern'=>4.0,
+            'bildname' => NULL,
             ],
             [
             'name'=>'Bratkartoffeln ohne Zwiebel',
@@ -38,6 +40,7 @@ class GerichteSeeder extends Seeder
             'vegan'=>0,
             'preis_intern'=>2.0,
             'preis_extern'=>3.5,
+            'bildname' => NULL,
             ],
             [
             'name'=>'Grilltofu',
@@ -46,6 +49,7 @@ class GerichteSeeder extends Seeder
             'vegan'=>1,
             'preis_intern'=>2.5,
             'preis_extern'=>4.5,
+            'bildname' => '03_tofu.jpg'
             ],
             [
             'name'=>'Lasagne',
@@ -54,6 +58,7 @@ class GerichteSeeder extends Seeder
             'vegan'=>0,
             'preis_intern'=>2.5,
             'preis_extern'=>4.5,
+            'bildname' => '06_lasagne.jpg',
             ],
             [
             'name'=>'Lasagne vegetarisch',
@@ -62,6 +67,7 @@ class GerichteSeeder extends Seeder
             'vegan'=>0,
             'preis_intern'=>2.5,
             'preis_extern'=>4.5,
+            'bildname' => NULL,
             ],
             [
             'name'=>'Hackbraten',
@@ -70,6 +76,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>0,
             'preis_intern'=>2.5,
             'preis_extern'=>4.0,
+            'bildname' =>NULL,
             ],
             [
             'name'=>'Gemüsepfanne',
@@ -78,6 +85,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>1,
             'preis_intern'=>2.3,
             'preis_extern'=>4.0,
+            'bildname' => NULL,
             ],
             [
             'name'=>'Hühnersuppe',
@@ -86,6 +94,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>0,
             'preis_intern'=>2,
             'preis_extern'=>3.5,
+            'bildname' => NULL,
             ],
             [
             'name'=>'Forellenfilet',
@@ -94,6 +103,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>0,
             'preis_intern'=>3.8,
             'preis_extern'=>5,
+            'bildname' => '10_forelle.jpg',
             ],
             [
             'name'=>'Kartoffel-Lauch-Suppe',
@@ -102,6 +112,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>1,
             'preis_intern'=>2,
             'preis_extern'=>3,
+            'bildname' => '11_soup.jpg',
             ],
             [
             'name'=>'Kassler mit Rosmarinkartoffeln',
@@ -110,6 +121,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>0,
             'preis_intern'=>3.8,
             'preis_extern'=>5.2,
+            'bildname' => '12_kassler.jpg',
             ],
             [
             'name'=>'Drei Reibekuchen mit Apfelmus',
@@ -118,6 +130,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>1,
             'preis_intern'=>2.5,
             'preis_extern'=>4.5,
+            'bildname' => '13_reibekuchen.jpg',
             ],
             [
             'name'=>'Pilzpfanne',
@@ -126,6 +139,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>1,
             'preis_intern'=>3,
             'preis_extern'=>5,
+            'bildname' => NULL,
             ],
             [
             'name'=>'Pilzpfanne vegan',
@@ -134,6 +148,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>1,
             'preis_intern'=>3,
             'preis_extern'=>5,
+            'bildname' => '15_pilze.jpg',
             ],
             [
             'name'=>'Käsebrötchen',
@@ -142,6 +157,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>1,
             'preis_intern'=>1,
             'preis_extern'=>1.5,
+            'bildname' => NULL,
             ],
             [
             'name'=>'Schinkenbrötchen',
@@ -150,6 +166,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>0,
             'preis_intern'=>1.25,
             'preis_extern'=>1.75,
+            'bildname' => '17_broetchen.jpg',
             ],
             [
             'name'=>'Tomatenbrötchen',
@@ -158,6 +175,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>1,
             'preis_intern'=>1,
             'preis_extern'=>1.5,
+            'bildname' => NULL,
             ],
             [
             'name'=>'Mousse au Chocolat',
@@ -166,6 +184,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>1,
             'preis_intern'=>1.25,
             'preis_extern'=>1.75,
+            'bildname' => '19_mousse.jpg',
             ],
             [
             'name'=>'Suppenkreation á la Chef',
@@ -174,6 +193,7 @@ class GerichteSeeder extends Seeder
             'vegetarisch'=>0,
             'preis_intern'=>0.5,
             'preis_extern'=>0.9,
+            'bildname' => '20_suppe.jpg',
             ],
         ]);
     }

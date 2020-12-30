@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
            KategorienSeeder::class,
            Gericht_hat_allergen_Seeder::class,
            Gericht_hat_kategorie_Seeder::class,
-           Benutzer::class,
+           BenutzerSeeder::class,
        ]);
     }
 }

@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Benutzer;
 use App\Models\gericht_hat_allergen;
 use App\Models\Gerichte;
+use App\Models\kategorie;
 use Illuminate\Support\Facades\DB;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
@@ -24,17 +26,17 @@ class EmensaController extends Controller
         $soupList = Gerichte::query()->where('name','LIKE','%suppe%')->get();
         return view('mealfilter.souplist',['soupList'=>$soupList]);
     }
-
-    private function logger(){
-        // create a log channel
-        $log = new Logger('name');
-        $log->pushHandler(new StreamHandler('storage.logs.test.log', Logger::WARNING));
-
-        // add records to the log
-        $log->warning('Foo');
-        $log->error('Bar');
-
-
+    public function indexUser()
+    {
+        $userList = DB::table('Benutzers')->orderBy('anzahl_anmeldungen','desc')->get();
+        return view('mealfilter.userLogins',['userList'=>$userList]);
     }
+
+    public function indexVeggieKat(){
+        $veggieList = Gerichte::query()->where('vegetarisch','=',1)->get();
+        $kategorieList = kategorie::all();
+        return view('mealfilter.veggies',['veggieList'=>$veggieList,'kategorieList'=>$kategorieList]);
+    }
+
 
 }

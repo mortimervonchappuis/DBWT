@@ -22,6 +22,7 @@ class CreateGerichtesTable extends Migration
             $table->boolean('vegan')->default(false);
             $table->double('preis_intern');
             $table->double('preis_extern');
+            $table->string('bildname',200)->nullable();
         });
     }
 

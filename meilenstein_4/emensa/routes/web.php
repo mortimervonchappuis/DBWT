@@ -21,6 +21,7 @@ Route::get('/gericht','\App\Http\Controllers\m4_A6Controller@showGericht');
 Route::view('/gerichtOG','examples/m4_6c_gerichte');
 Route::get('/page','\App\Http\Controllers\m4_A6Controller@showPage');
 
+//Route::get('/',function (){  return view('Homepage/news');});
 //Route::view('/','Homepage/news');
 Route::get('/','App\Http\Controllers\HomepageController@meals');
 Route::view('/contact','Homepage/contact');
@@ -28,6 +29,7 @@ Route::view('/contact','Homepage/contact');
 Route::view('/about','Homepage/about');
 Route::get('/meals','App\Http\Controllers\EmensaController@indexGerichte');
 Route::get('/meals/Suppen','App\Http\Controllers\EmensaController@indexSuppen');
+Route::get('/meals/veggies','App\Http\Controllers\EmensaController@indexVeggieKat');
 Route::get('/meals/allergyList', function (){return view('mealFilter.allergyList', ['allergenList'=> \App\Models\Allergen::all()]);});
 
 Route::view('/login', 'Homepage/anmeldung');
