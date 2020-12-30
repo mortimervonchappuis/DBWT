@@ -6,6 +6,10 @@ DROP TABLE IF EXISTS allergen;
 DROP TABLE IF EXISTS kategorie;
 DROP TABLE IF EXISTS gericht_hat_allergen;
 DROP TABLE IF EXISTS gericht_hat_kategorie;
+DROP TABLE IF EXISTS wunschgericht;
+DROP TABLE IF EXISTS erstellerin;
+DROP TABLE IF EXISTS wunschgericht_hat_erstellerin;
+DROP TABLE IF EXISTS benutzer;
 SET NAMES utf8mb4;
 
 CREATE TABLE gericht(
@@ -48,15 +52,15 @@ CREATE TABLE gericht_hat_kategorie(
   gericht_id INT(8),
   kategorie_id INT(8),
   FOREIGN KEY (gericht_id) REFERENCES gericht(id),
-  FOREIGN KEY (kategorie_id) REFERENCES kategorie(id),
-  PRIMARY KEY (gericht_id, kategorie_id)
+  FOREIGN KEY (kategorie_id) REFERENCES kategorie(id)
+  -- PRIMARY KEY (gericht_id, kategorie_id)
 );
 
 CREATE TABLE wunschgericht(
   ID INT(8) NOT NULL AUTO_INCREMENT,
   Name VARCHAR(20),
   Beschreibung VARCHAR(80),
-  Erstelldatum DATE,
+  Erstelldatum DATETIME,
   PRIMARY KEY (ID)
 );
 
@@ -68,7 +72,29 @@ CREATE TABLE erstellerin(
 
 CREATE TABLE wunschgericht_hat_erstellerin(
   erstellerin VARCHAR(30),
-  wunschgericht_id INT(8),
+  wunschgericht_id INT(8) AUTO_INCREMENT,
   FOREIGN KEY (erstellerin) REFERENCES erstellerin(E_Mail),
   FOREIGN KEY (wunschgericht_id) REFERENCES wunschgericht(ID)
 );
+
+CREATE TABLE benutzer(
+  ID INT(8) PRIMARY KEY AUTO_INCREMENT,
+  E_Mail VARCHAR(100) UNIQUE NOT NULL,
+  password VARCHAR(200) NOT NULL,
+  admin BOOLEAN,
+  anzahl_fehler INT NOT NULL,
+  anzahl_anmeldungen INT NOT NULL,
+  letzte_anmeldung DATETIME,
+  letzter_fehler DATETIME
+);
+
+ALTER TABLE gericht_hat_kategorie ADD CONSTRAINT einzigartig UNIQUE (gericht_id, kategorie_id);
+ALTER TABLE gericht ADD INDEX priority (Name);
+ALTER TABLE gericht_hat_kategorie ADD CONSTRAINT del_k FOREIGN KEY (gericht_id) REFERENCES gericht(id) ON DELETE CASCADE;
+ALTER TABLE gericht_hat_allergen ADD CONSTRAINT del_a FOREIGN KEY (gericht_id) REFERENCES gericht(id) ON DELETE CASCADE;
+
+-- ALTER TABLE kategorie ADD CONSTRAINT no_del ON DELETE (IF EXISTS FOREIGN KEY (eltern_id)) NO ACTION;
+
+ALTER TABLE gericht_hat_allergen ADD CONSTRAINT update_a FOREIGN KEY (code) REFERENCES allergen(code) ON UPDATE CASCADE;
+ALTER TABLE gericht_hat_kategorie ADD CONSTRAINT prim PRIMARY KEY (gericht_id, kategorie_id);
+ALTER TABLE gericht ADD bildname VARCHAR(200);
