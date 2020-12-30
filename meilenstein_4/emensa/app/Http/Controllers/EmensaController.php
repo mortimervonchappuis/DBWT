@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Benutzer;
 use App\Models\gericht_hat_allergen;
+use App\Models\gericht_hat_kategorie;
 use App\Models\Gerichte;
 use App\Models\kategorie;
 use Illuminate\Support\Facades\DB;
@@ -32,11 +33,6 @@ class EmensaController extends Controller
         return view('mealfilter.userLogins',['userList'=>$userList]);
     }
 
-    public function indexVeggieKat(){
-        $veggieList = Gerichte::query()->where('vegetarisch','=',1)->get();
-        $kategorieList = kategorie::all();
-        return view('mealfilter.veggies',['veggieList'=>$veggieList,'kategorieList'=>$kategorieList]);
-    }
 
 
 }

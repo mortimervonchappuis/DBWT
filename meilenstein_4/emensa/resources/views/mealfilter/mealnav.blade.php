@@ -11,9 +11,6 @@
                 <li class="menu-item">
                     <a href="/meals/User">Benutzer Anmeldungen</a>
                 </li>
-                <li class="menu-item">
-                    <a href="/meals/veggies">Veggie Liste</a>
-                </li>
             </ul>
     </nav>
 </header>
