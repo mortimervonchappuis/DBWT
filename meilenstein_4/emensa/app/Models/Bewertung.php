@@ -12,4 +12,7 @@ class Bewertung extends Model
     public function benutzer(){
         return $this->belongsTo(Benutzer::class);
     }
+    public function gericht(){
+        return $this->belongsTo(Gerichte::class);
+    }
 }

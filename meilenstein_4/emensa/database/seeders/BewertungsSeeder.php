@@ -18,13 +18,13 @@ class BewertungsSeeder extends Seeder
             [
             'beschreibung'=>'War sehr lecker würde das Gericht jedem empfehlen',
             'sterne'=>1,
-            'gericht_id'=>1,
+            'gerichte_id'=>1,
             'benutzer_id' => 1
             ],
             [
             'beschreibung'=>'War ungenießbar würde das Gericht jedem empfehlen',
             'sterne'=>1,
-            'gericht_id'=>1,
+            'gerichte_id'=>1,
             'benutzer_id' => 1
             ],
         ]);

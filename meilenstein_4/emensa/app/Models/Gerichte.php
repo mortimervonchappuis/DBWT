@@ -54,5 +54,9 @@ class Gerichte extends Model
 
     }
 
+    public function bewertung(){
+        return $this->hasMany(Bewertung::class);
+    }
+
     use HasFactory;
 }

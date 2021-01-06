@@ -19,7 +19,7 @@ class CreateBewertungsTable extends Migration
             $table->string('beschreibung');
             $table->unsignedInteger('sterne');
             $table->tinyInteger('highlight')->default(0);
-            $table->foreignId('gericht_id')
+            $table->foreignId('gerichte_id')
                 ->references('id')->
                 on('gerichtes')->
                 onDelete('cascade');
