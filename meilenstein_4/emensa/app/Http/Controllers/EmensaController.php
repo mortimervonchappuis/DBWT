@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Allergen;
 use App\Models\Benutzer;
 use App\Models\gericht_hat_allergen;
 use App\Models\gericht_hat_kategorie;
@@ -19,7 +20,10 @@ class EmensaController extends Controller
 
         $mealList = DB::select("SELECT g.name, g.preis_intern, g.preis_extern, GROUP_CONCAT(gha.code) as gha_code FROM gerichtes as g JOIN gericht_hat_allergens AS gha ON gha.gericht_id = g.id GROUP BY g.id ;");
 
-        return view('Homepage/meals',['mealList'=>$mealList]);
+        $mealList = Gerichte::all();
+        $allergenList = gericht_hat_allergen::all();
+
+        return view('Homepage/meals',['mealList'=>$mealList,'allergenList' => $allergenList]);
     }
 
     public function indexSuppen()

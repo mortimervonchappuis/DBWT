@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
            Gericht_hat_allergen_Seeder::class,
            Gericht_hat_kategorie_Seeder::class,
            BenutzerSeeder::class,
+           BewertungsSeeder::class,
        ]);
     }
 }

@@ -17,7 +17,8 @@ class CreateGerichtesTable extends Migration
             $table->id();
             $table->string('name',80)->unique();
             $table->string('beschreibung',800);
-            $table->timestamp('erfasst_am');
+            $table->timestamps();
+
             $table->boolean('vegetarisch')->default(false);
             $table->boolean('vegan')->default(false);
             $table->double('preis_intern');

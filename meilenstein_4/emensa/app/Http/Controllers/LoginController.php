@@ -17,7 +17,7 @@ class LoginController extends Controller
     public function login(){
         $user = $_POST['e-mail'];
         $password = $_POST['password'];
-        $result = DB::select('SELECT * FROM Benutzers WHERE E_Mail = "'.$user.'" AND `password` = "'.$this->sha3($password).'";');
+        $result = DB::select('SELECT * FROM benutzers WHERE E_Mail = "'.$user.'" AND `password` = "'.$this->sha3($password).'";');
         if ($result){
             $_SESSION['user'] = $user;
 /*            DB::beginTransaction();

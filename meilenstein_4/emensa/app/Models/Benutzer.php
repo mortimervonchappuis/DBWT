@@ -8,4 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Benutzer extends Model
 {
     use HasFactory;
+
+    protected $casts=[
+        'admin' => 'boolean',
+
+    ];
+
+    public function bewertungen(){
+        return $this->hasMany(Bewertung::class,'benutzer_id');
+    }
 }

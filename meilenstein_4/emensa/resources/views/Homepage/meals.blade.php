@@ -40,7 +40,13 @@
                         {{$meal->preis_extern}}
                     </td>
                     <td>
-                        <small>{{$meal->gha_code ?? 'Nothing'}}</small>
+                        <small>
+                            @foreach($allergenList as $allergen)
+                                @if($allergen->gericht_id == $meal->id)
+                                    [{!!$allergen->code!!}]
+                                @endif
+                            @endforeach
+                        </small>
                     </td>
                 </tr>
             @endforeach
