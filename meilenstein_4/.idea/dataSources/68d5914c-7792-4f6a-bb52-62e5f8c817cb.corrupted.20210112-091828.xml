@@ -1310,88 +1310,211 @@
     </collation>
     <collation id="328" parent="1" name="utf8mb4_vietnamese_ci">
       <Charset>utf8mb4</Charset>
+<<<<<<< HEAD
+    </collation>
+    <user id="329" parent="1" name="mariadb.sys">
+      <Host>localhost</Host>
+      <ObjectGrants>SELECT,DELETE|mysql.global_priv
+</ObjectGrants>
+    </user>
+    <user id="330" parent="1" name="root">
+      <Host>127.0.0.1</Host>
+      <ObjectGrants>ALL PRIVILEGES!
+</ObjectGrants>
+    </user>
+    <user id="331" parent="1" name="root">
+      <Host>::1</Host>
+      <ObjectGrants>ALL PRIVILEGES!
+</ObjectGrants>
+    </user>
+    <user id="332" parent="1" name="root">
+      <Host>desktop-ei0sdtl</Host>
+      <ObjectGrants>ALL PRIVILEGES!
+</ObjectGrants>
+    </user>
+    <user id="333" parent="1" name="root">
+      <Host>localhost</Host>
+      <ObjectGrants>ALL PRIVILEGES!
+</ObjectGrants>
+    </user>
+    <table id="334" parent="2" name="allergens">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="335" parent="2" name="benutzers">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="336" parent="2" name="bewertungs">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="337" parent="2" name="failed_jobs">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="338" parent="2" name="gericht_hat_allergens">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="339" parent="2" name="gericht_hat_kategories">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="340" parent="2" name="gerichtes">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="341" parent="2" name="kategories">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="342" parent="2" name="migrations">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="343" parent="2" name="password_resets">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <table id="344" parent="2" name="users">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </table>
+    <view id="345" parent="2" name="login_benutzer">
+      <SourceTextLength>236</SourceTextLength>
+      <Definer>root@localhost</Definer>
+    </view>
+    <view id="346" parent="2" name="suppen_gerichte">
+      <SourceTextLength>149</SourceTextLength>
+      <Definer>root@localhost</Definer>
+    </view>
+    <view id="347" parent="2" name="veggie_kat">
+      <SourceTextLength>384</SourceTextLength>
+      <Definer>root@localhost</Definer>
+    </view>
+    <routine id="348" parent="2" name="spUser_IncrementLogin">
+      <SourceTextLength>98</SourceTextLength>
+      <Definer>root@localhost</Definer>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="349" parent="334" name="id">
+=======
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="329" parent="2" name="allergens"/>
     <table id="330" parent="2" name="benutzers"/>
-    <table id="331" parent="2" name="bewertungs"/>
-    <table id="332" parent="2" name="failed_jobs"/>
-    <table id="333" parent="2" name="gericht_hat_allergens"/>
-    <table id="334" parent="2" name="gericht_hat_kategories"/>
-    <table id="335" parent="2" name="gerichtes"/>
-    <table id="336" parent="2" name="kategories"/>
-    <table id="337" parent="2" name="migrations"/>
-    <table id="338" parent="2" name="password_resets"/>
-    <table id="339" parent="2" name="users"/>
-    <column id="340" parent="329" name="id">
+    <table id="331" parent="2" name="failed_jobs"/>
+    <table id="332" parent="2" name="gericht_hat_allergens"/>
+    <table id="333" parent="2" name="gericht_hat_kategories"/>
+    <table id="334" parent="2" name="gerichtes"/>
+    <table id="335" parent="2" name="kategories"/>
+    <table id="336" parent="2" name="migrations"/>
+    <table id="337" parent="2" name="password_resets"/>
+    <table id="338" parent="2" name="users"/>
+    <column id="339" parent="329" name="id">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="341" parent="329" name="code">
+<<<<<<< HEAD
+    <column id="350" parent="334" name="code">
+=======
+    <column id="340" parent="329" name="code">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>2</Position>
       <DataType>char(4)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="342" parent="329" name="name">
+<<<<<<< HEAD
+    <column id="351" parent="334" name="name">
+=======
+    <column id="341" parent="329" name="name">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>3</Position>
       <DataType>varchar(300)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="343" parent="329" name="typ">
+<<<<<<< HEAD
+    <column id="352" parent="334" name="typ">
+=======
+    <column id="342" parent="329" name="typ">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;allergen&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="344" parent="329" name="PRIMARY">
+<<<<<<< HEAD
+    <key id="353" parent="334" name="PRIMARY">
+=======
+    <key id="343" parent="329" name="PRIMARY">
+>>>>>>> 1239977 (morti compatible fix)
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="345" parent="330" name="id">
+<<<<<<< HEAD
+    <column id="354" parent="335" name="id">
+=======
+    <column id="344" parent="330" name="id">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="346" parent="330" name="E_Mail">
+<<<<<<< HEAD
+    <column id="355" parent="335" name="E_Mail">
+=======
+    <column id="345" parent="330" name="E_Mail">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="347" parent="330" name="password">
+<<<<<<< HEAD
+    <column id="356" parent="335" name="password">
+=======
+    <column id="346" parent="330" name="password">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>3</Position>
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="348" parent="330" name="admin">
+<<<<<<< HEAD
+    <column id="357" parent="335" name="admin">
+=======
+    <column id="347" parent="330" name="admin">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>4</Position>
       <DataType>tinyint(1)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="349" parent="330" name="anzahl_fehler">
+<<<<<<< HEAD
+    <column id="358" parent="335" name="anzahl_fehler">
+=======
+    <column id="348" parent="330" name="anzahl_fehler">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="350" parent="330" name="anzahl_anmeldungen">
+<<<<<<< HEAD
+    <column id="359" parent="335" name="anzahl_anmeldungen">
+=======
+    <column id="349" parent="330" name="anzahl_anmeldungen">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="351" parent="330" name="letzte_anmeldung">
+<<<<<<< HEAD
+    <column id="360" parent="335" name="letzte_anmeldung">
+=======
+    <column id="350" parent="330" name="letzte_anmeldung">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
@@ -1399,419 +1522,676 @@
       <ColumnKind>normal</ColumnKind>
       <OnUpdate>current_timestamp()</OnUpdate>
     </column>
-    <column id="352" parent="330" name="letzter_fehler">
+<<<<<<< HEAD
+    <column id="361" parent="335" name="letzter_fehler">
+=======
+    <column id="351" parent="330" name="letzter_fehler">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="353" parent="330" name="benutzers_e_mail_unique">
+<<<<<<< HEAD
+    <index id="362" parent="335" name="benutzers_e_mail_unique">
+=======
+    <index id="352" parent="330" name="benutzers_e_mail_unique">
+>>>>>>> 1239977 (morti compatible fix)
       <ColNames>E_Mail</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="354" parent="330" name="PRIMARY">
+<<<<<<< HEAD
+    <key id="363" parent="335" name="PRIMARY">
+=======
+    <key id="353" parent="330" name="PRIMARY">
+>>>>>>> 1239977 (morti compatible fix)
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="355" parent="330" name="benutzers_e_mail_unique">
+<<<<<<< HEAD
+    <key id="364" parent="335" name="benutzers_e_mail_unique">
       <ColNames>E_Mail</ColNames>
       <UnderlyingIndexName>benutzers_e_mail_unique</UnderlyingIndexName>
     </key>
-    <column id="356" parent="331" name="id">
+    <column id="365" parent="336" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="366" parent="336" name="created_at">
+      <Position>2</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>current_timestamp()</DefaultExpression>
+      <OnUpdate>current_timestamp()</OnUpdate>
+    </column>
+    <column id="367" parent="336" name="beschreibung">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="368" parent="336" name="sterne">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="369" parent="336" name="highlight">
+      <Position>5</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="370" parent="336" name="gericht_id">
+      <Position>6</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="371" parent="336" name="user_id">
+      <Position>7</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <index id="372" parent="336" name="bewertungs_gericht_id_foreign">
+      <ColNames>gericht_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="373" parent="336" name="bewertungs_user_id_foreign">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="374" parent="336" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="375" parent="336" name="bewertungs_gericht_id_foreign">
+      <ColNames>gericht_id</ColNames>
+      <RefTableName>gerichtes</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="376" parent="336" name="bewertungs_user_id_foreign">
+      <ColNames>user_id</ColNames>
+      <RefTableName>users</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="377" parent="337" name="id">
+=======
+    <key id="354" parent="330" name="benutzers_e_mail_unique">
+      <ColNames>E_Mail</ColNames>
+      <UnderlyingIndexName>benutzers_e_mail_unique</UnderlyingIndexName>
+    </key>
+    <column id="355" parent="331" name="id">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="357" parent="331" name="created_at">
+<<<<<<< HEAD
+    <column id="378" parent="337" name="uuid">
+=======
+    <column id="356" parent="331" name="uuid">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="379" parent="337" name="connection">
+=======
+    <column id="357" parent="331" name="connection">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="380" parent="337" name="queue">
+=======
+    <column id="358" parent="331" name="queue">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="381" parent="337" name="payload">
+=======
+    <column id="359" parent="331" name="payload">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>5</Position>
+      <DataType>longtext|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="382" parent="337" name="exception">
+=======
+    <column id="360" parent="331" name="exception">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>6</Position>
+      <DataType>longtext|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="383" parent="337" name="failed_at">
+=======
+    <column id="361" parent="331" name="failed_at">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>7</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>current_timestamp()</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <index id="384" parent="337" name="failed_jobs_uuid_unique">
+=======
+    <index id="362" parent="331" name="failed_jobs_uuid_unique">
+>>>>>>> 1239977 (morti compatible fix)
+      <ColNames>uuid</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+<<<<<<< HEAD
+    <key id="385" parent="337" name="PRIMARY">
+=======
+    <key id="363" parent="331" name="PRIMARY">
+>>>>>>> 1239977 (morti compatible fix)
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+<<<<<<< HEAD
+    <key id="386" parent="337" name="failed_jobs_uuid_unique">
+      <ColNames>uuid</ColNames>
+      <UnderlyingIndexName>failed_jobs_uuid_unique</UnderlyingIndexName>
+    </key>
+    <column id="387" parent="338" name="code">
+=======
+    <key id="364" parent="331" name="failed_jobs_uuid_unique">
+      <ColNames>uuid</ColNames>
+      <UnderlyingIndexName>failed_jobs_uuid_unique</UnderlyingIndexName>
+    </key>
+    <column id="365" parent="332" name="code">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>1</Position>
+      <DataType>char(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="388" parent="338" name="gericht_id">
+=======
+    <column id="366" parent="332" name="gericht_id">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>2</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <index id="389" parent="338" name="gericht_hat_allergens_gericht_id_foreign">
+      <ColNames>gericht_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <foreign-key id="390" parent="338" name="gericht_hat_allergens_gericht_id_foreign">
+=======
+    <index id="367" parent="332" name="gericht_hat_allergens_gericht_id_foreign">
+      <ColNames>gericht_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <foreign-key id="368" parent="332" name="gericht_hat_allergens_gericht_id_foreign">
+>>>>>>> 1239977 (morti compatible fix)
+      <ColNames>gericht_id</ColNames>
+      <RefSchemaName>emensawerbeseite</RefSchemaName>
+      <RefTableName>gerichtes</RefTableName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+<<<<<<< HEAD
+    <column id="391" parent="339" name="gericht_id">
+=======
+    <column id="369" parent="333" name="gericht_id">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="392" parent="339" name="kategorie_id">
+=======
+    <column id="370" parent="333" name="kategorie_id">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>2</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <index id="393" parent="339" name="gericht_hat_kategories_gericht_id_foreign">
+      <ColNames>gericht_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="394" parent="339" name="gericht_hat_kategories_kategorie_id_foreign">
+      <ColNames>kategorie_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <foreign-key id="395" parent="339" name="gericht_hat_kategories_gericht_id_foreign">
+=======
+    <index id="371" parent="333" name="gericht_hat_kategories_gericht_id_foreign">
+      <ColNames>gericht_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="372" parent="333" name="gericht_hat_kategories_kategorie_id_foreign">
+      <ColNames>kategorie_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <foreign-key id="373" parent="333" name="gericht_hat_kategories_gericht_id_foreign">
+>>>>>>> 1239977 (morti compatible fix)
+      <ColNames>gericht_id</ColNames>
+      <RefSchemaName>emensawerbeseite</RefSchemaName>
+      <RefTableName>gerichtes</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+    <foreign-key id="396" parent="339" name="gericht_hat_kategories_kategorie_id_foreign">
+=======
+    <foreign-key id="374" parent="333" name="gericht_hat_kategories_kategorie_id_foreign">
+>>>>>>> 1239977 (morti compatible fix)
+      <ColNames>kategorie_id</ColNames>
+      <RefSchemaName>emensawerbeseite</RefSchemaName>
+      <RefTableName>kategories</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+<<<<<<< HEAD
+    <column id="397" parent="340" name="id">
+=======
+    <column id="375" parent="334" name="id">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="398" parent="340" name="name">
+=======
+    <column id="376" parent="334" name="name">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>2</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="399" parent="340" name="beschreibung">
+=======
+    <column id="377" parent="334" name="beschreibung">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>3</Position>
+      <DataType>varchar(800)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+<<<<<<< HEAD
+    <column id="400" parent="340" name="erfasst_am">
+=======
+    <column id="378" parent="334" name="erfasst_am">
+>>>>>>> 1239977 (morti compatible fix)
+      <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>current_timestamp()</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
       <OnUpdate>current_timestamp()</OnUpdate>
     </column>
-    <column id="358" parent="331" name="beschreibung">
-      <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="359" parent="331" name="sterne">
-      <Position>4</Position>
-      <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="360" parent="331" name="highlight">
+<<<<<<< HEAD
+    <column id="401" parent="340" name="vegetarisch">
+=======
+    <column id="379" parent="334" name="vegetarisch">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>5</Position>
-      <DataType>tinyint(4)|0s</DataType>
+      <DataType>tinyint(1)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="361" parent="331" name="gerichte_id">
-      <Position>6</Position>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="362" parent="331" name="benutzer_id">
-      <Position>7</Position>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="363" parent="331" name="bewertungs_gerichte_id_foreign">
-      <ColNames>gerichte_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <index id="364" parent="331" name="bewertungs_benutzer_id_foreign">
-      <ColNames>benutzer_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="365" parent="331" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="366" parent="331" name="bewertungs_gerichte_id_foreign">
-      <ColNames>gerichte_id</ColNames>
-      <RefSchemaName>emensawerbeseite</RefSchemaName>
-      <RefTableName>gerichtes</RefTableName>
-      <RefColNames>id</RefColNames>
-      <OnDelete>cascade</OnDelete>
-    </foreign-key>
-    <foreign-key id="367" parent="331" name="bewertungs_benutzer_id_foreign">
-      <ColNames>benutzer_id</ColNames>
-      <RefSchemaName>emensawerbeseite</RefSchemaName>
-      <RefTableName>benutzers</RefTableName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <column id="368" parent="332" name="id">
-      <Position>1</Position>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="369" parent="332" name="uuid">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="370" parent="332" name="connection">
-      <Position>3</Position>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="371" parent="332" name="queue">
-      <Position>4</Position>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="372" parent="332" name="payload">
-      <Position>5</Position>
-      <DataType>longtext|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="373" parent="332" name="exception">
-      <Position>6</Position>
-      <DataType>longtext|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="374" parent="332" name="failed_at">
-      <Position>7</Position>
-      <DataType>timestamp|0s</DataType>
-      <NotNull>1</NotNull>
-      <DefaultExpression>current_timestamp()</DefaultExpression>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="375" parent="332" name="failed_jobs_uuid_unique">
-      <ColNames>uuid</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <key id="376" parent="332" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <key id="377" parent="332" name="failed_jobs_uuid_unique">
-      <ColNames>uuid</ColNames>
-      <UnderlyingIndexName>failed_jobs_uuid_unique</UnderlyingIndexName>
-    </key>
-    <column id="378" parent="333" name="code">
-      <Position>1</Position>
-      <DataType>char(4)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="379" parent="333" name="gericht_id">
-      <Position>2</Position>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="380" parent="333" name="gericht_hat_allergens_gericht_id_foreign">
-      <ColNames>gericht_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <foreign-key id="381" parent="333" name="gericht_hat_allergens_gericht_id_foreign">
-      <ColNames>gericht_id</ColNames>
-      <RefSchemaName>emensawerbeseite</RefSchemaName>
-      <RefTableName>gerichtes</RefTableName>
-      <RefColNames>id</RefColNames>
-      <OnDelete>cascade</OnDelete>
-    </foreign-key>
-    <column id="382" parent="334" name="gericht_id">
-      <Position>1</Position>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="383" parent="334" name="kategorie_id">
-      <Position>2</Position>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="384" parent="334" name="gericht_hat_kategories_gericht_id_foreign">
-      <ColNames>gericht_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <index id="385" parent="334" name="gericht_hat_kategories_kategorie_id_foreign">
-      <ColNames>kategorie_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <foreign-key id="386" parent="334" name="gericht_hat_kategories_gericht_id_foreign">
-      <ColNames>gericht_id</ColNames>
-      <RefSchemaName>emensawerbeseite</RefSchemaName>
-      <RefTableName>gerichtes</RefTableName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <foreign-key id="387" parent="334" name="gericht_hat_kategories_kategorie_id_foreign">
-      <ColNames>kategorie_id</ColNames>
-      <RefSchemaName>emensawerbeseite</RefSchemaName>
-      <RefTableName>kategories</RefTableName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <column id="388" parent="335" name="id">
-      <Position>1</Position>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="389" parent="335" name="name">
-      <Position>2</Position>
-      <DataType>varchar(80)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="390" parent="335" name="beschreibung">
-      <Position>3</Position>
-      <DataType>varchar(800)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="391" parent="335" name="created_at">
-      <Position>4</Position>
-      <DataType>timestamp|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="392" parent="335" name="updated_at">
-      <Position>5</Position>
-      <DataType>timestamp|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="393" parent="335" name="vegetarisch">
+<<<<<<< HEAD
+    <column id="402" parent="340" name="vegan">
+=======
+    <column id="380" parent="334" name="vegan">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>6</Position>
       <DataType>tinyint(1)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="394" parent="335" name="vegan">
+<<<<<<< HEAD
+    <column id="403" parent="340" name="preis_intern">
+=======
+    <column id="381" parent="334" name="preis_intern">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>7</Position>
-      <DataType>tinyint(1)|0s</DataType>
+      <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="395" parent="335" name="preis_intern">
+<<<<<<< HEAD
+    <column id="404" parent="340" name="preis_extern">
+=======
+    <column id="382" parent="334" name="preis_extern">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>8</Position>
       <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="396" parent="335" name="preis_extern">
+<<<<<<< HEAD
+    <column id="405" parent="340" name="bildname">
+=======
+    <column id="383" parent="334" name="bildname">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>9</Position>
-      <DataType>double|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="397" parent="335" name="bildname">
-      <Position>10</Position>
       <DataType>varchar(200)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="398" parent="335" name="gerichtes_name_unique">
+<<<<<<< HEAD
+    <index id="406" parent="340" name="gerichtes_name_unique">
+=======
+    <index id="384" parent="334" name="gerichtes_name_unique">
+>>>>>>> 1239977 (morti compatible fix)
       <ColNames>name</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="399" parent="335" name="PRIMARY">
+<<<<<<< HEAD
+    <key id="407" parent="340" name="PRIMARY">
+=======
+    <key id="385" parent="334" name="PRIMARY">
+>>>>>>> 1239977 (morti compatible fix)
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="400" parent="335" name="gerichtes_name_unique">
+<<<<<<< HEAD
+    <key id="408" parent="340" name="gerichtes_name_unique">
       <ColNames>name</ColNames>
       <UnderlyingIndexName>gerichtes_name_unique</UnderlyingIndexName>
     </key>
-    <column id="401" parent="336" name="id">
+    <column id="409" parent="341" name="id">
+=======
+    <key id="386" parent="334" name="gerichtes_name_unique">
+      <ColNames>name</ColNames>
+      <UnderlyingIndexName>gerichtes_name_unique</UnderlyingIndexName>
+    </key>
+    <column id="387" parent="335" name="id">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="402" parent="336" name="name">
+<<<<<<< HEAD
+    <column id="410" parent="341" name="name">
+=======
+    <column id="388" parent="335" name="name">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>2</Position>
       <DataType>varchar(80)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="403" parent="336" name="eltern_id">
+<<<<<<< HEAD
+    <column id="411" parent="341" name="eltern_id">
+=======
+    <column id="389" parent="335" name="eltern_id">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="404" parent="336" name="bildname">
+<<<<<<< HEAD
+    <column id="412" parent="341" name="bildname">
+=======
+    <column id="390" parent="335" name="bildname">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>4</Position>
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="405" parent="336" name="PRIMARY">
+<<<<<<< HEAD
+    <key id="413" parent="341" name="PRIMARY">
+=======
+    <key id="391" parent="335" name="PRIMARY">
+>>>>>>> 1239977 (morti compatible fix)
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="406" parent="337" name="id">
+<<<<<<< HEAD
+    <column id="414" parent="342" name="id">
+=======
+    <column id="392" parent="336" name="id">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>1</Position>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="407" parent="337" name="migration">
+<<<<<<< HEAD
+    <column id="415" parent="342" name="migration">
+=======
+    <column id="393" parent="336" name="migration">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="408" parent="337" name="batch">
+<<<<<<< HEAD
+    <column id="416" parent="342" name="batch">
+=======
+    <column id="394" parent="336" name="batch">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="409" parent="337" name="PRIMARY">
+<<<<<<< HEAD
+    <key id="417" parent="342" name="PRIMARY">
+=======
+    <key id="395" parent="336" name="PRIMARY">
+>>>>>>> 1239977 (morti compatible fix)
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="410" parent="338" name="email">
+<<<<<<< HEAD
+    <column id="418" parent="343" name="email">
+=======
+    <column id="396" parent="337" name="email">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="411" parent="338" name="token">
+<<<<<<< HEAD
+    <column id="419" parent="343" name="token">
+=======
+    <column id="397" parent="337" name="token">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="412" parent="338" name="created_at">
+<<<<<<< HEAD
+    <column id="420" parent="343" name="created_at">
+=======
+    <column id="398" parent="337" name="created_at">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="413" parent="338" name="password_resets_email_index">
+<<<<<<< HEAD
+    <index id="421" parent="343" name="password_resets_email_index">
       <ColNames>email</ColNames>
       <Type>btree</Type>
     </index>
-    <column id="414" parent="339" name="id">
+    <column id="422" parent="344" name="id">
+=======
+    <index id="399" parent="337" name="password_resets_email_index">
+      <ColNames>email</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="400" parent="338" name="id">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>1</Position>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="415" parent="339" name="name">
+<<<<<<< HEAD
+    <column id="423" parent="344" name="name">
+=======
+    <column id="401" parent="338" name="name">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="416" parent="339" name="email">
+<<<<<<< HEAD
+    <column id="424" parent="344" name="email">
+=======
+    <column id="402" parent="338" name="email">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="417" parent="339" name="email_verified_at">
+<<<<<<< HEAD
+    <column id="425" parent="344" name="email_verified_at">
+=======
+    <column id="403" parent="338" name="email_verified_at">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="418" parent="339" name="password">
+<<<<<<< HEAD
+    <column id="426" parent="344" name="password">
+=======
+    <column id="404" parent="338" name="password">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="419" parent="339" name="remember_token">
+<<<<<<< HEAD
+    <column id="427" parent="344" name="remember_token">
+=======
+    <column id="405" parent="338" name="remember_token">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>6</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="420" parent="339" name="created_at">
+<<<<<<< HEAD
+    <column id="428" parent="344" name="created_at">
+=======
+    <column id="406" parent="338" name="created_at">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="421" parent="339" name="updated_at">
+<<<<<<< HEAD
+    <column id="429" parent="344" name="updated_at">
+=======
+    <column id="407" parent="338" name="updated_at">
+>>>>>>> 1239977 (morti compatible fix)
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="422" parent="339" name="users_email_unique">
+<<<<<<< HEAD
+    <index id="430" parent="344" name="users_email_unique">
+=======
+    <index id="408" parent="338" name="users_email_unique">
+>>>>>>> 1239977 (morti compatible fix)
       <ColNames>email</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="423" parent="339" name="PRIMARY">
+<<<<<<< HEAD
+    <key id="431" parent="344" name="PRIMARY">
+=======
+    <key id="409" parent="338" name="PRIMARY">
+>>>>>>> 1239977 (morti compatible fix)
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="424" parent="339" name="users_email_unique">
+<<<<<<< HEAD
+    <key id="432" parent="344" name="users_email_unique">
       <ColNames>email</ColNames>
       <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
     </key>
+    <column id="433" parent="345" name="E_Mail">
+      <Position>1</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="434" parent="345" name="anzahl_anmeldungen">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="435" parent="346" name="name">
+      <Position>1</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="436" parent="347" name="name">
+      <Position>1</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="437" parent="347" name="group_concat(distinct g.name)">
+      <Position>2</Position>
+      <DataType>mediumtext|0s</DataType>
+    </column>
+    <argument id="438" parent="348" name="email">
+      <Position>1</Position>
+      <DataType>varchar(100)|0s</DataType>
+    </argument>
+=======
+    <key id="410" parent="338" name="users_email_unique">
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
+    </key>
+>>>>>>> 1239977 (morti compatible fix)
   </database-model>
 </dataSource>

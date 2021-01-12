@@ -6,8 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/emensa/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/emensa/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/emensa/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
-      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/asm89/stack-cors" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/emensa/vendor/composer" />
