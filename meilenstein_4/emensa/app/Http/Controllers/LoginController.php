@@ -20,13 +20,14 @@ class LoginController extends Controller
         $result = DB::select('SELECT * FROM benutzers WHERE E_Mail = "'.$user.'" AND `password` = "'.$this->sha3($password).'";');
         if ($result){
             $_SESSION['user'] = $user;
-/*            DB::beginTransaction();
+///*
+            DB::beginTransaction();
             DB::update('UPDATE benutzers SET anzahl_anmeldungen = anzahl_anmeldungen + 1, letzte_anmeldung = NOW() WHERE E_Mail = "'.$user.'";');
-            DB::commit();*/
+            DB::commit();//*/
             //DB::select('CALL spUser_IncrementLogin("$user")');
             //dd($user);
             Log::channel('login')->info('Login success',['email' => $user]);
-            DB::statement('call spUser_IncrementLogin(?)',[$user]);
+            //DB::statement('call spUser_IncrementLogin(?)',[$user]);
             return redirect('/');
         }
         else{
