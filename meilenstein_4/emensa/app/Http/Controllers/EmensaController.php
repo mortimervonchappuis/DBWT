@@ -33,7 +33,7 @@ class EmensaController extends Controller
     }
     public function indexUser()
     {
-        $userList = DB::table('Benutzers')->orderBy('anzahl_anmeldungen','desc')->get();
+        $userList = DB::table('benutzers')->orderBy('anzahl_anmeldungen','desc')->get();
         return view('mealfilter.userLogins',['userList'=>$userList]);
     }
 

@@ -11,9 +11,11 @@
     </div>
     <div class="row">
     @foreach($meals as $meal)
-        <div class="col">
+        <div class="col" style="max-width: 200px;">
             <img width="200" height="200" src="img/gerichte/{{$meal->bildname ?? '00_image_missing.jpg'}}">
-            <p style="text-align: center">{{$meal->name}}</p>
+            <p style="text-align: center;">{{$meal->name}}@php
+                    if (isset($_SESSION['user'])) echo "<br><a style='text-align: center;' href='bewertung?id=".$meal->id."'>bewerten</a>";
+                @endphp</p>
         </div>
     @endforeach
     </div>

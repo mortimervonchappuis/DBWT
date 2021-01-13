@@ -24,6 +24,9 @@
                     <a href="/about">Über uns</a>
                 </li>
                 <li class="menu-item">
+                    <a href="/bewertungen">Bewertung</a>
+                </li>
+                <li class="menu-item">
                     <?php
                     if (!isset($_SESSION['user'])){
                         echo '<a href="/login">Anmeldung</a>';
@@ -34,7 +37,7 @@
                 </li>
             </ul>
         </div>
-        <?php if (isset($_SESSION['user'])) echo '<div class=col-header><p>Sie sind angemeldet als '.$_SESSION['user'].'</p></div>';?>
+        <?php if (isset($_SESSION['user'])) echo '<div class=col-header><a href="/meinebewertungen">Sie sind angemeldet als '.$_SESSION['user'].'</a></div>';?>
     </nav>
     <hr>
 </header>

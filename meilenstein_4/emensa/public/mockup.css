@@ -187,3 +187,58 @@ label.star:hover:before {
 	content: "★";
 	color: #FFC107;
 }
+
+div.box{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+	display: grid;
+}
+
+.box div.b-row{
+	border: #1a202c solid 3px;
+	width: 800px;
+	height:250px;
+	margin: 20px;
+	display: inline-block;/**/
+	background-color: #3ebfac;
+}
+
+.box div.b-img img{
+	border-right: #1a202c solid 3px;
+	width: 250px;
+	height: 250px;
+	/*display: inline-block;/**/
+}
+
+.box div.b-img{
+	display: inline-block;/**/
+}
+.box div.b-cont{
+	position:relative;
+	padding: 20px;
+	vertical-align: top;
+	display: inline-block;/**/
+	width: 502px;
+	height:210px;
+}
+
+h3{
+	text-align: left;
+	font-size: 25px;
+	color: white;
+}
+
+.star{
+	color: #FFC107;
+	display: inline;
+	float: right;
+}
+
+.box div.b-cont div.b-cont-cont{
+	background-color: white;
+	border: #1a202c solid 1px;
+	padding:20px;
+	margin-top: 20px;
+	height: 110px;
+}

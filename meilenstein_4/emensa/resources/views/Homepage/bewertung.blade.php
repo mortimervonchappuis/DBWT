@@ -10,18 +10,18 @@
             @csrf
             <label for="beschreibung">Beschreibung</label>
             <br>
-            <textarea name="beschreibung"></textarea>
+            <textarea minlength="5" name="beschreibung"></textarea>
             <br>
             <div class="stars">
-            <input name="rating" class="star" type="radio" id="st1" value="1" />
+            <input name="rating" class="star" type="radio" id="st1" value="5" />
             <label class="star" for="st1"></label>
-            <input name="rating" class="star" type="radio" id="st2" value="2" />
+            <input name="rating" class="star" type="radio" id="st2" value="4" />
             <label class="star" for="st2"></label>
             <input name="rating" class="star" type="radio" id="st3" value="3" />
             <label class="star" for="st3"></label>
-            <input name="rating" class="star" type="radio" id="st4" value="4" />
+            <input name="rating" class="star" type="radio" id="st4" value="2" />
             <label class="star" for="st4"></label>
-            <input name="rating" class="star" type="radio" id="st5" value="5" checked="checked"/>
+            <input name="rating" class="star" type="radio" id="st5" value="1" checked="checked"/>
             <label class="star" for="st5"></label>
             <br>
             </div>

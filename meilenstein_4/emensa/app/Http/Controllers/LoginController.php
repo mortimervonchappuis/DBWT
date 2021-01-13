@@ -48,6 +48,7 @@ class LoginController extends Controller
             return redirect('/login?fail=true');
         }
     }
+
     public function logout(){
         Log::channel('login')->info('Logout success',['email' => $_SESSION['user']]);
         unset($_SESSION['user']);

@@ -22,6 +22,22 @@ class BewertungController extends Controller
         return redirect('/');
     }
 
+    public function bewertungen(){
+        $query = 'SELECT bewertungs.id, gerichtes.bildname, bewertungs.beschreibung, bewertungs.sterne, benutzers.E_Mail, gerichtes.name FROM bewertungs JOIN benutzers ON bewertungs.benutzer_id = benutzers.id JOIN gerichtes ON bewertungs.gerichte_id = gerichtes.id ORDER BY bewertungs.created_at DESC LIMIT 30;';
+        $results = DB::select($query);
+        return view('Homepage/bewertungen', ['bewertungen'=>$results]);
+    }
+
+    public function meinebewertungen(){
+        if (!isset($_SESSION['user'])){
+            return redirect('/');
+        }
+        $user = $_SESSION['user'];
+        $query = 'SELECT bewertungs.id, gerichtes.bildname, bewertungs.beschreibung, bewertungs.sterne, benutzers.E_Mail, gerichtes.name FROM bewertungs JOIN benutzers ON bewertungs.benutzer_id = benutzers.id JOIN gerichtes ON bewertungs.gerichte_id = gerichtes.id  WHERE benutzers.E_Mail = "'.$user.'" ORDER BY bewertungs.created_at DESC;';
+        $results = DB::select($query);
+        return view('Homepage/bewertungen', ['bewertungen'=>$results]);
+    }
+
     public function bewerten(){
         $beschreibung = $_POST['beschreibung'];
         $rating = $_POST['rating'];
@@ -30,6 +46,16 @@ class BewertungController extends Controller
 
         $query = "INSERT INTO bewertungs (gerichte_id, benutzer_id, beschreibung, highlight, sterne) VALUES (".$gericht_id.", ".$user_id.", '".$beschreibung."', false, ".$rating.");";
         DB::insert($query);
-        redirect('/');
+        return redirect('/');
+    }
+
+    public function delete(){
+        if (!isset($_SESSION['user']) && ! isset($_GET['id'])){
+            return redirect('/');
+        }
+        $bewertung_id = $_GET['id'];
+        $user_id = $_SESSION['user_id'];
+        DB::delete("DELETE FROM bewertungs WHERE id = ".$bewertung_id." AND benutzer_id = ".$user_id.";");
+        return back();
     }
 }

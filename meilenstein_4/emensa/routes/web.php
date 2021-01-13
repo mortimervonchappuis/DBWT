@@ -39,3 +39,6 @@ Route::get('/bewertung', 'App\Http\Controllers\BewertungController@bewertung');
 Route::post('/bewerten', 'App\Http\Controllers\BewertungController@bewerten');
 Route::post('/signup', 'App\Http\Controllers\LoginController@signup');
 Route::view('/register', 'Homepage/register');
+Route::get('/bewertungen', 'App\Http\Controllers\BewertungController@bewertungen');
+Route::get('/meinebewertungen', 'App\Http\Controllers\BewertungController@meinebewertungen');
+Route::get('/delete', 'App\Http\Controllers\BewertungController@delete');
