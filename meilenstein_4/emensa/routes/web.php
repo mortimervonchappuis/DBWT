@@ -35,3 +35,7 @@ Route::get('/meals/allergyList', function (){return view('mealFilter.allergyList
 Route::view('/login', 'Homepage/anmeldung');
 Route::post('/verify', 'App\Http\Controllers\LoginController@login');
 Route::get('/logout', 'App\Http\Controllers\LoginController@logout');
+Route::get('/bewertung', 'App\Http\Controllers\BewertungController@bewertung');
+Route::post('/bewerten', 'App\Http\Controllers\BewertungController@bewerten');
+Route::post('/signup', 'App\Http\Controllers\LoginController@signup');
+Route::view('/register', 'Homepage/register');

@@ -12,6 +12,7 @@
     <meta charset="UTF-8">
     <title>@yield('title')</title>
     <link rel="stylesheet" type="text/css" href="{{asset('mockup.css')}}"/>
+    <link rel="stylesheet" href="font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Schoolbell&v1" rel="stylesheet">
 </head>
 <!--Top-->

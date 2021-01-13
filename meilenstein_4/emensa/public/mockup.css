@@ -141,3 +141,49 @@ footer ul{
 #fliesstext{
 	font-size: 20px;
 }
+
+
+
+
+
+input.star {
+	display: none;
+}
+
+label.star {
+	position: relative;
+	float: right;
+	color: #C8C8C8;
+}
+
+div.stars{
+	display: inline-block;
+	align-content: center;
+}
+
+label.star:before {
+	margin: 5px;
+	content: "☆";
+	display: inline-block;
+	font-size: 1.5em;
+	color: #ccc;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+input.star:checked ~ label:before {
+	content: "★";
+	color: #FFC107;
+}
+
+
+label.star:hover ~ label:before {
+	content: "★";
+	color: #ffdb70;
+}
+
+label.star:hover:before {
+	content: "★";
+	color: #FFC107;
+}
