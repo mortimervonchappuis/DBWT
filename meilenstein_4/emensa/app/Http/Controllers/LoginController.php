@@ -15,10 +15,12 @@ class LoginController extends Controller
             DB::beginTransaction();
             $query = 'INSERT INTO benutzers(E_Mail, password, admin, anzahl_fehler, anzahl_anmeldungen) VALUES ("'.$user.'", "'.$this->sha3($password).'", false, 0, 0);';
             DB::insert($query);
-            $query = 'SELECT id FROM benutzers WHERE E_Mail = "'.$user.'";';
-            $id = DB::select($query)[0]->id;
+            $query = 'SELECT id, admin FROM benutzers WHERE E_Mail = "'.$user.'";';
+            $result = DB::select($query)[0];
+            $id = $result->id;
+            $admin = $result->admin;
             DB::commit();
-            $this->set_cookie($user, $id);
+            $this->set_cookie($user, $id, $admin);
             return redirect('/');
         }
         else{
@@ -35,10 +37,11 @@ class LoginController extends Controller
     public function login(){
         $user = $_POST['e-mail'];
         $password = $_POST['password'];
-        $result = DB::select('SELECT * FROM benutzers WHERE E_Mail = "'.$user.'" AND `password` = "'.$this->sha3($password).'";');
+        $result = DB::select('SELECT * FROM benutzers WHERE E_Mail = "'.$user.'" AND `password` = "'.$this->sha3($password).'";')[0];
         if ($result){
-            $id = $result[0]->id;
-            $this->set_cookie($user, $id);
+            $id = $result->id;
+            $admin = $result->admin;
+            $this->set_cookie($user, $id, $admin);
             return redirect('/');
         }
         else{
@@ -53,14 +56,16 @@ class LoginController extends Controller
         Log::channel('login')->info('Logout success',['email' => $_SESSION['user']]);
         unset($_SESSION['user']);
         unset($_SESSION['user_id']);
+        unset($_SESSION['admin']);
         session_destroy();
         return redirect('/');
     }
 
 
-    private function set_cookie($user, $id){
+    private function set_cookie($user, $id, $admin){
         $_SESSION['user'] = $user;
         $_SESSION['user_id'] = $id;
+        $_SESSION['admin'] = $admin;
         DB::beginTransaction();
         DB::update('UPDATE benutzers SET anzahl_anmeldungen = anzahl_anmeldungen + 1, letzte_anmeldung = NOW() WHERE E_Mail = "'.$user.'";');
         DB::commit();

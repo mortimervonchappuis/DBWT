@@ -23,7 +23,7 @@ class BewertungController extends Controller
     }
 
     public function bewertungen(){
-        $query = 'SELECT bewertungs.id, gerichtes.bildname, bewertungs.beschreibung, bewertungs.sterne, benutzers.E_Mail, gerichtes.name FROM bewertungs JOIN benutzers ON bewertungs.benutzer_id = benutzers.id JOIN gerichtes ON bewertungs.gerichte_id = gerichtes.id ORDER BY bewertungs.created_at DESC LIMIT 30;';
+        $query = 'SELECT bewertungs.highlight, bewertungs.id, gerichtes.bildname, bewertungs.beschreibung, bewertungs.sterne, benutzers.E_Mail, gerichtes.name FROM bewertungs JOIN benutzers ON bewertungs.benutzer_id = benutzers.id JOIN gerichtes ON bewertungs.gerichte_id = gerichtes.id ORDER BY bewertungs.created_at DESC LIMIT 30;';
         $results = DB::select($query);
         return view('Homepage/bewertungen', ['bewertungen'=>$results]);
     }
@@ -33,7 +33,7 @@ class BewertungController extends Controller
             return redirect('/');
         }
         $user = $_SESSION['user'];
-        $query = 'SELECT bewertungs.id, gerichtes.bildname, bewertungs.beschreibung, bewertungs.sterne, benutzers.E_Mail, gerichtes.name FROM bewertungs JOIN benutzers ON bewertungs.benutzer_id = benutzers.id JOIN gerichtes ON bewertungs.gerichte_id = gerichtes.id  WHERE benutzers.E_Mail = "'.$user.'" ORDER BY bewertungs.created_at DESC;';
+        $query = 'SELECT bewertungs.highlight, bewertungs.id, gerichtes.bildname, bewertungs.beschreibung, bewertungs.sterne, benutzers.E_Mail, gerichtes.name FROM bewertungs JOIN benutzers ON bewertungs.benutzer_id = benutzers.id JOIN gerichtes ON bewertungs.gerichte_id = gerichtes.id  WHERE benutzers.E_Mail = "'.$user.'" ORDER BY bewertungs.created_at DESC;';
         $results = DB::select($query);
         return view('Homepage/bewertungen', ['bewertungen'=>$results]);
     }
@@ -50,12 +50,21 @@ class BewertungController extends Controller
     }
 
     public function delete(){
-        if (!isset($_SESSION['user']) && ! isset($_GET['id'])){
-            return redirect('/');
+        if (!isset($_SESSION['user_id']) || !isset($_GET['id'])){
+            return back();
         }
         $bewertung_id = $_GET['id'];
         $user_id = $_SESSION['user_id'];
         DB::delete("DELETE FROM bewertungs WHERE id = ".$bewertung_id." AND benutzer_id = ".$user_id.";");
+        return back();
+    }
+
+    public function engrave(){
+        if (!isset($_SESSION['admin']) || !isset($_GET['id']) || $_SESSION['admin'] != 1){
+            return back();
+        }
+        $bewertung_id = $_GET['id'];
+        DB::update("UPDATE bewertungs SET highlight = NOT highlight WHERE id = ".$bewertung_id.";");
         return back();
     }
 }
