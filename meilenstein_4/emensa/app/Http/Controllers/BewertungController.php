@@ -23,7 +23,7 @@ class BewertungController extends Controller
     }
 
     public function bewertungen(){
-        $query = "SELECT b.highlight, b.id, b.beschreibung, b.sterne, benutzers.E_Mail, gerichtes.name FROM bewertungs AS b
+        $query = "SELECT b.highlight, b.id, b.beschreibung, b.sterne, benutzers.E_Mail, gerichtes.name, gerichtes.bildname FROM bewertungs AS b
     JOIN benutzers ON b.benutzer_id = benutzers.id
     JOIN gerichtes ON b.gerichte_id = gerichtes.id
     JOIN (
