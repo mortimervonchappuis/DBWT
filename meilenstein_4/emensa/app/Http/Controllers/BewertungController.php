@@ -23,7 +23,13 @@ class BewertungController extends Controller
     }
 
     public function bewertungen(){
-        $query = 'SELECT bewertungs.highlight, bewertungs.id, gerichtes.bildname, bewertungs.beschreibung, bewertungs.sterne, benutzers.E_Mail, gerichtes.name FROM bewertungs JOIN benutzers ON bewertungs.benutzer_id = benutzers.id JOIN gerichtes ON bewertungs.gerichte_id = gerichtes.id ORDER BY bewertungs.created_at DESC LIMIT 30;';
+        $query = "SELECT b.highlight, b.id, b.beschreibung, b.sterne, benutzers.E_Mail, gerichtes.name FROM bewertungs AS b
+    JOIN benutzers ON b.benutzer_id = benutzers.id
+    JOIN gerichtes ON b.gerichte_id = gerichtes.id
+    JOIN (
+         SELECT id, max(created_at) AS MaxDate FROM bewertungs GROUP BY created_at) bm
+          ON b.created_at = bm.MaxDate AND b.id = bm.id 
+ORDER BY b.created_at DESC LIMIT 30;";
         $results = DB::select($query);
         return view('Homepage/bewertungen', ['bewertungen'=>$results]);
     }
@@ -44,7 +50,7 @@ class BewertungController extends Controller
         $gericht_id = $_POST['gericht_id'];
         $user_id = $_SESSION['user_id'];
 
-        $query = "INSERT INTO bewertungs (gerichte_id, benutzer_id, beschreibung, highlight, sterne) VALUES (".$gericht_id.", ".$user_id.", '".$beschreibung."', false, ".$rating.");";
+        $query = "INSERT INTO bewertungs (created_at, gerichte_id, benutzer_id, beschreibung, highlight, sterne) VALUES (NOW(), ".$gericht_id.", ".$user_id.", '".$beschreibung."', false, ".$rating.");";
         DB::insert($query);
         return redirect('/');
     }

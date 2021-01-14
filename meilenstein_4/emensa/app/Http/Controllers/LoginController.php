@@ -37,8 +37,9 @@ class LoginController extends Controller
     public function login(){
         $user = $_POST['e-mail'];
         $password = $_POST['password'];
-        $result = DB::select('SELECT * FROM benutzers WHERE E_Mail = "'.$user.'" AND `password` = "'.$this->sha3($password).'";')[0];
+        $result = DB::select('SELECT * FROM benutzers WHERE E_Mail = "'.$user.'" AND `password` = "'.$this->sha3($password).'";');
         if ($result){
+            $result = $result[0];
             $id = $result->id;
             $admin = $result->admin;
             $this->set_cookie($user, $id, $admin);
