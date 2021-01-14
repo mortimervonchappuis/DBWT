@@ -23,13 +23,23 @@ class BewertungController extends Controller
     }
 
     public function bewertungen(){
-        $query = "SELECT b.highlight, b.id, b.beschreibung, b.sterne, benutzers.E_Mail, gerichtes.name, gerichtes.bildname FROM bewertungs AS b
+        if (!isset($_SESSION['user'])){
+            $email = 'sample';
+        }
+        else{
+            $email = $_SESSION['user'];
+        }
+        $query = "SELECT b.created_at AS created, b.highlight, b.id, b.beschreibung, b.sterne, benutzers.E_Mail, gerichtes.name, gerichtes.bildname FROM bewertungs AS b
     JOIN benutzers ON b.benutzer_id = benutzers.id
     JOIN gerichtes ON b.gerichte_id = gerichtes.id
     JOIN (
          SELECT id, max(created_at) AS MaxDate FROM bewertungs GROUP BY created_at) bm
-          ON b.created_at = bm.MaxDate AND b.id = bm.id 
-ORDER BY b.created_at DESC LIMIT 30;";
+          ON b.created_at = bm.MaxDate AND b.id = bm.id WHERE benutzers.E_Mail != '".$email."' UNION 
+    SELECT b.created_at AS created, b.highlight, b.id, b.beschreibung, b.sterne, benutzers.E_Mail, gerichtes.name, gerichtes.bildname FROM bewertungs AS b
+    JOIN benutzers ON b.benutzer_id = benutzers.id
+    JOIN gerichtes ON b.gerichte_id = gerichtes.id
+    WHERE benutzers.E_Mail = '".$email."'
+ORDER BY created DESC LIMIT 30;";
         $results = DB::select($query);
         return view('Homepage/bewertungen', ['bewertungen'=>$results]);
     }
